@@ -1,0 +1,648 @@
+{
+  "common": {
+    "name": "Jersey COVID Alerta",
+    "url": "https://www.gov.je/health/coronavirus/Pages/index.aspx",
+    "message": "Junte Jersey COVID Alerta a luta contra COVID-19",
+    "networkError": "Problema de conexão. Por favor verifique sua conexão com a internet e tente novamente.",
+    "missingDataAction": "Atualizar a página",
+    "missingError": "Carregando questão. Não fomos capazes de carregar alguns dos dados corretamente.",
+    "preferNotToSay": "Prefiro não dizer",
+    "confirmChanges": "mudanças Confirmar",
+    "changesUpdated": "alterações atualizados",
+    "dismiss": "Dispensar"
+  },
+  "viewNames": {
+    "age": "Confirmar a sua idade",
+    "getStarted": "Começar",
+    "casesByCounty": "Casos, por regiao/municipio",
+    "updates": "Atualizações",
+    "symptomchecker": "verificador COVID",
+    "settings": "Configurações",
+    "uploadKeys": "Publique as suas chaves aleatórias",
+    "closeContact": "Contato próximo",
+    "settingsContactTracing": "Contato definições de rastreio",
+    "settingsCheckin": "Configurações checkin COVID",
+    "settingsExposureAlert": "Configurações de alerta de exposição",
+    "dataPolicy": "Política de Protecção de Dados",
+    "terms": "Termos e Condições",
+    "metrics": "Configurações para App Metrics",
+    "leave": "Deixar Jersey COVID Alert",
+    "exposureAlert": "Alerta de exposição",
+    "privacy": "Aviso de Privacidade",
+    "language": "Idioma/lingua",
+    "settingsFollowUpCall": "Retorno de Chamada",
+    "howTheAppWorks": "Como o aplicativo funciona",
+    "pause": "Pausar alertas de exposição"
+  },
+  "navbar": {
+    "settings": "Configurações",
+    "settingsHint": "Ver ou alterar as configurações do aplicativo",
+    "back": "Volte",
+    "backHint": "Volta navegar para a tela anterior"
+  },
+  "tabBar": {
+    "updates": "Atualizações",
+    "symptomCheck": "COVID de check-in",
+    "exposureAlert": "Alerta de exposição",
+    "shareApp": "Partilhar a Aplicação",
+    "settings": "Configurações",
+    "shareError": "Houve uma partilha de erro. Por favor tente novamente ou contacte-nos."
+  },
+  "onboarding": {
+    "intro": {
+      "title": "O que o aplicativo vai fazer",
+      "info": "# Alertas de exposição\n\nReceba alertas sobre se esteve exposto a alguém com COVID-19, ao mesmo tempo que protege a sua privacidade..\n\n# Atualizações\n\nFique a par das últimas estatísticas sobre a COVID-19 em Jersey.\n\n# Partilhar a Aplicação\n\nAjude a proteger mais pessoas incentivando colegas, amigos e familiares a usar a aplicação.",
+      "action": "Começar",
+      "howItWorks": "Aprenda como funciona a aplicação"
+    },
+    "information": {
+      "title": "Ativar Notificações de Exposição COVID-19",
+      "highlight": "Alerta exposição ajuda a prevenir a propagação do COVID-19.",
+      "highlight1": "Este aplicativo suporta o trabalho das equipes de alerta de exposição do DOH, mas essas equipes pode também contactá-lo como parte do rastreamento de contato manual.",
+      "text": "A aplicação precisa de autorização para enviar um alerta de exposição se tiver mantido contacto próximo com alguém que tenha COVID-19 e que também usa a aplicação.\n\nA aplicação não sabe a sua localização física ou a sua identidade ou das pessoas que estão consigo.\n\nEsta aplicação apoia o trabalho da Equipa de Rastreamento de Contactos de Jersey, que também poderá entrar em contacto consigo se tiver sido identificado verbalmente como um contacto direto por alguém com COVID-19.",
+      "text1": "Para ativar os Alertas de Exposição desta aplicação deve ligar:",
+      "text2": "E para receber um alerta deve ligar:",
+      "action": "Continuar",
+      "later": "Talvez mais tarde",
+      "skip": "Ignorar por enquanto",
+      "bluetooth": "Serviço de Notificação de Exposição",
+      "notifications": "Notificações",
+      "quote": "Se mudar de ideias, pode mudar estas autorizações nas Configurações a qualquer momento."
+    },
+    "upgrade": {
+      "ios": {
+        "title": "Apple iOS deve ser atualizado",
+        "text": "Para ativar lerta exposição, você precisa atualizar para a versão mais recente da Apple iOS.",
+        "action": "Verificar se há atualizações"
+      },
+      "android": {
+        "title": "O Google Play Services deve ser atualizado",
+        "text": "Para ativar Alerta exposição, você precisa atualizar para a versão mais recente do Google Play Services.",
+        "action": "Verificar se há atualizações"
+      }
+    }
+  },
+  "dataProtectionPolicy": {
+    "title": "Proteção de Informações Aviso dados",
+    "link": "Você pode ler a informação Aviso de Protecção de Dados aqui",
+    "text": "O DPIN não poderia ser carregado"
+  },
+  "tandcPolicy": {
+    "title": "Termos e Condições",
+    "sentence": {
+      "prefix": "Se clicar em Começar, está a aceitar os",
+      "link": "Termos e Condições",
+      "suffix": "."
+    },
+    "text": "Os Termos e Condições não pôde ser carregado"
+  },
+  "stats": {
+    "title": "Última atualização",
+    "totalCases": "Total de testes",
+    "totalRegisteredDeaths": "mortes registrados",
+    "totalHospitalised": "número hospitalizado",
+    "totalNegative": "testes negativos",
+    "totalRecovered": "casos recuperados",
+    "requiredICU": "Necessário UTI",
+    "negativeCases": "Total de testes negativos",
+    "positiveCases": "Total de casos positivos confirmados",
+    "recoveredCases": "Total confirmado recuperado",
+    "pendingCases": "Resultados de teste pendentes",
+    "activeCasesBreakdown": {
+      "title": "Análise de casos ativos conhecidos",
+      "symptomatic": "Sintomáticos",
+      "asymptomatic": "Assintomáticos",
+      "casesLocation": "Localização de casos ativos conhecidos",
+      "hospital": "Hospital",
+      "care": "Lar de cuidados",
+      "community": "Comunidade"
+    }
+  },
+  "checker": {
+    "title": "COVID de check-in",
+    "resultTitle": "Obrigado",
+    "question1": "**Você tem uma febre? - uma temperatura elevada mais de 38 graus Celsius**\n\nSymptoms de uma febre pode incluir as bochechas coradas, sensação de cansaço e estar morna ou quente ao toque.",
+    "question1id": "febre",
+    "question1Label": "Alta temperatura ou arrepios",
+    "question2id": "tosse",
+    "question2": "**Você tem algum tipo de tosse?**",
+    "question2Label": "Tosse",
+    "question3id": "respiração",
+    "question3": "**Você tem alguma dificuldade em respirar?**\n\nEste poderia ser como ofegante ou sensação de que você não pode encher os pulmões.",
+    "question3Label": "Dificuldade para respirar",
+    "question4id": "gripe",
+    "question4": "**Você tem alguma perda do sentido do gosto ou cheiro?**\n\nIsto pode significar que você não pode provar ou cheiro qualquer coisa, ou coisas gosto ou cheiro diferente ao normal.",
+    "question4Label": "Perda do sentido do gosto ou cheiro",
+    "yes": "sim",
+    "no": "Não",
+    "virusIsolation": "Estes sintomas são uma correspondência para os sintomas de coronavírus. Lembre-se, 8 em cada 10 pessoas com COVID-19 recuperar em casa com repouso e over-the-counter medicina.\n\n## O que fazer em seguida\n\nPor favor, auto-isolar em casa para outros protegem.\n\ncall seu médico para obter aconselhamento e veja se você deve ser testada para COVID-19.",
+    "recovered": "É bom ouvir você está se sentindo melhor. Fique bem, seguindo os conselhos sobre hse.ie.",
+    "linkButton": "Leia mais conselhos aqui",
+    "viewHistory": "Ver meu histórico",
+    "introTitle": "COVID de check-in",
+    "introWelcome": "Sobre você",
+    "introButton": "Continuar",
+    "noresults": "Você ainda não experimentou o verificador sintoma ainda. Comece agora tocando no botão acima",
+    "noSymptomsWell": {
+      "message": "Estamos felizes em saber que você está se sentindo bem. Obrigado por check-in. Mesmo se você ainda está bem, por favor, volte amanhã para que possamos saber como você está fazendo.",
+      "viewHistory": "Ver meu histórico",
+      "advice": "Visita hse.ie para ler mais sobre como se proteger e aos outros coronavírus.",
+      "protectionAdvice": "Orientação para prevenção"
+    },
+    "noSymptomsNotWell": {
+      "message": "Obrigado por check-in. Lamento saber que você não está feeing bem.\n\nSe você tiver sintomas como um corrimento nasal ou dor de garganta, você deve se comportar como você tem coronavirus e auto-isolado por 14 dias para proteger outras pessoas.\n\nPhone seu médico para discutir os seus sintomas e se você precisa de um teste para coronavírus.",
+      "viewHistory": "Ver meu histórico",
+      "advice": "Visita hse.ie para ler mais sobre como se proteger e aos outros coronavírus.",
+      "protectionAdvice": "Orientação para prevenção"
+    },
+    "riskGroup": {
+      "warning": "Por causa de sua idade, nós gostaríamos que você tomar cuidado extra para se proteger de COVID-19.\n\npeople que são mais velhos e as pessoas que têm problemas de saúde a longo prazo são mais em risco de doença grave, se ficar COVID-19 .",
+      "warningReadMore": "Leia mais sobre isto aqui",
+      "advice": "Sabemos que isso não é um momento fácil. Se você precisar de apoio ou aconselhamento sobre como gerenciar em casa, torneira abaixo para mais informações.",
+      "adviceReadMore": "Consiga mais informação"
+    }
+  },
+  "welcome": {
+    "title": "Oi lá 👋",
+    "text": "COVID de check-in permite que todos usando o aplicativo para verificar os sintomas e obter aconselhamento. Também ajuda o HSE para mapear e acompanhar como COVID-19 está afetando Irlanda.\nfaz\nO COVID check-in não revelar sua identidade. Você pode compartilhar sua idade, sexo e localidade para ajudar a tornar a informação mais útil para a análise da saúde pública.\n\nO COVID de check-in também mantém um registro em seu telefone de quaisquer sintomas que você teve, assim você pode verificar para trás e rever a qualquer momento.",
+    "action": "Sim, eu gostaria de usar COVID de check-in",
+    "letUsKnow": "Deixe-nos saber se você tem\nsymptoms hoje"
+  },
+  "returning": {
+    "title": "Welcome Back 👋",
+    "subtitle": "Como você está se sentindo hoje?",
+    "action1": "Estou bem, sem sintomas",
+    "action2": "Não estou me sentindo bem hoje",
+    "completeTitle": "Ótimo para ouvir 👍",
+    "completeLink": "Ver o seu histórico"
+  },
+  "settings": {
+    "title": "Configurações",
+    "contactTracing": "Contactar Tracing",
+    "contactTracingHint": "Ver ou alterar as configurações de rastreamento de contatos",
+    "exposureAlert": "Alerta de exposição",
+    "exposureAlertHint": "Visualização ou alterem as configurações de alerta de exposição",
+    "checkIn": "COVID de check-in",
+    "checkinHint": "Veja ou alterar configurações para COVID Check In",
+    "privacyPolicy": "Proteção de Informações Aviso dados",
+    "privacyPolicyHint": "Ver a Proteção de Informações Aviso de Dados",
+    "termsAndConditions": "Termos e Condições",
+    "termsAndConditionsHint": "Ver os Termos e Condições",
+    "metrics": "App metrics",
+    "metricsHint": "Visualização ou alterem as configurações de App Metrics",
+    "leave": "Sair",
+    "leaveHint": "Deixar a aplicação",
+    "dataProtection": "Aviso de informacaos de Protecao do Dados",
+    "dataProtectionHint": "Ver o Aviso de informacaos de protecao do dados",
+    "privacyNotice": "Aviso de Privacidade",
+    "privacyNoticeHint": "Ver o Aviso de Privacidade",
+    "language": "Idioma/lingua",
+    "languageHint": "Escolha o idioma usado no aplicação",
+    "followUpCall": "Retorno de Chamada da Equipa de Rastreamento de Contactos",
+    "followUpCallHint": "Forneça seu número de telefone para solicitar um retorno de chamada",
+    "howTheAppWorks": "Como Funciona a Aplicação",
+    "howTheAppWorksHint": "Detalhes sobre como o aplicativo funciona."
+  },
+  "leave": {
+    "title": "Sair",
+    "info": "Obrigado por nos ajudar a combater a COVID-19. Lamentamos que se vá embora.\n\nQuando clicar em «Quero sair», todos os dados armazenados pela aplicação no seu dispositivo serão eliminados, o que inclui o seu número de telemóvel (se partilhado). Os tokens de autorização sem identificação armazenados nos servidores da aplicação também serão eliminados.\n\nAs ID Aleatórias criadas ou recolhidas pelos Serviços de Notificação de Exposição não podem ser removidas da aplicação – se quiser eliminar estas ID Aleatórias, pode fazê-lo através das Configurações do seu dispositivo.",
+    "button": "Quero sair",
+    "confirmTitle": "Sair",
+    "confirmText": "Você tem certeza de que quer sair?",
+    "cancel": "Cancelar",
+    "confirm": "Confirme",
+    "error": "Ocorreu um erro ao limpar seus dados. Por favor tente novamente ou contacte-nos."
+  },
+  "checkInSettings": {
+    "title": "COVID de check-in",
+    "checkInFirst": "Suas configurações serão visíveis daqui assim que você faz o seu primeiro check-in.",
+    "intro": "Você compartilhou a seguinte informação conosco.",
+    "gotoCheckIn": "Ir para COVID de check-in"
+  },
+  "appStats": {
+    "title": "luta de hoje",
+    "totalCheckins": "Check-Ins total hoje",
+    "noSymptoms": "Sentindo-se bem",
+    "someSymptoms": "alguns sintomas",
+    "nationalPicture": "O quadro nacional",
+    "breakdown": "Tap para a avaria concelho",
+    "usersSinceLaunch": "Usuários do aplicativo desde o lançamento"
+  },
+  "exposureAlert": {
+    "title": "Alerta de exposição",
+    "active": {
+      "title": "Alerta de exposição activa",
+      "subtitle": "Mantenha o Bluetooth ligado"
+    },
+    "noSupport": {
+      "title": "Alerta exposição não está disponível",
+      "message": "Infelizmente, este dispositivo não suporta alerta de exposição. Você ainda pode usar o app para atualizações."
+    },
+    "canSupport": {
+      "title": "Alerta exposição não está disponível",
+      "message": {
+        "ios": "Para ativar alerta exposição que você precisa fazer o upgrade para a versão mais recente do iOS (13,5 e acima).",
+        "android": "Para ativar alerta exposição que você precisa fazer o upgrade para a versão mais recente do Google Play Services."
+      },
+      "button": "Verifique para upgrade"
+    },
+    "notEnabled": {
+      "title": "Alerta de exposição não habilitado",
+      "message": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "button": "Habilitar"
+    },
+    "notActive": {
+      "title": "Alerta de exposição não ativa",
+      "message00": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "message10": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "message01": "É necessário habilitar Bluetooth em suas configurações",
+      "message11": "É necessário habilitar o Serviço de Notificação Exposição e Bluetooth em suas configurações",
+      "button": "Vá para as configurações",
+      "android": {
+        "button": "Habilitar",
+        "message": "É necessário habilitar o Serviço de Notificação Exposição a exposição ativar alerta"
+      }
+    },
+    "registrationsTitle": "Inscrições de aplicativos",
+    "registrationsYesterday": "Total de registros de aplicativos",
+    "registrationsHint": "Gráfico mostrando quantos registros houve no aplicativo ao longo do tempo",
+    "shareAppText": "Quanto mais as pessoas que podemos obter utilizando esta aplicação mais eficaz o nosso esforço alerta exposição se tornará. Compartilhar o aplicativo para nos ajudar a alcançar o nosso objectivo.",
+    "uploadCard": {
+      "title": "Diagnosticado com COVID-19?",
+      "text": "Como informar anonimamente às pessoas que foram expostas."
+    },
+    "closeContactCard": {
+      "title": "Informação de exposição",
+      "text": "O que fazer se você está dito que você é um contacto próximo com alguém com COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Estado",
+        "active": "O serviço é atualmente ativo",
+        "notActive": "Serviço não está ativo",
+        "intro": "Você não está gravando eventos de contato próximo e não será notificado se alguém de quem você esteve recentemente receber o diagnóstico de COVID-19.",
+        "gotoSettings": "Atualizar configurações",
+        "android": {
+          "intro": "Para atualizar suas configurações de permissão, vá para as configurações de aplicativos do seu dispositivo.",
+          "gotoSettings": "Atualizar as configurações do aplicativo"
+        },
+        "ios": {
+          "intro": "Para atualizar suas configurações de permissão, vá para as configurações de aplicativos do seu dispositivo.",
+          "gotoSettings": "Atualizar as configurações do aplicativo"
+        }
+      },
+      "clearData": {
+        "title": "Alertas de exposição antigos",
+        "intro": "Toque no botão abaixo para apagar todas as suas alertas de exposição antigos.",
+        "button": "Apagar tudo",
+        "confirmTitle": "Apagar alertas de exposição antigos",
+        "confirmText": "Tem certeza de que deseja limpar todos os seus alertas de exposição?",
+        "cancel": "Cancelar",
+        "confirm": "Confirme",
+        "error": "Ocorreu um erro ao limpar seus Contatos íntimos. Por favor, tente novamente."
+      }
+    },
+    "pause": {
+      "text": "Pausar alertas de exposição",
+      "paused": "Pausado - lembrete definido para {{time}}",
+      "reactivate": {
+        "label": "Reativar alertas de exposição"
+      }
+    },
+    "howItWorksCard": {
+      "text": "Como o aplicativo funciona"
+    }
+  },
+  "contactTracing": {
+    "title": "Alertas de exposição",
+    "active": {
+      "title": "Alertas de exposição ativos /n/nMantenha o Bluetooth ligado"
+    },
+    "noSupport": {
+      "title": "Alertas de exposição não está disponível",
+      "message": "Infelizmente, este dispositivo não suporta alertas de exposição. Você ainda pode usar o app para atualizações."
+    },
+    "canSupport": {
+      "title": "Alertas de exposição não está disponível",
+      "message": {
+        "ios": "Para habilitar os alertas de exposição que você precisa atualizar para a versão mais recente do iOS (13,5 e acima).",
+        "android": "Para habilitar os alertas de exposição que você precisa atualizar para a versão mais recente do Google Play Services."
+      },
+      "button": "Verifique para upgrade"
+    },
+    "notEnabled": {
+      "title": "Alertas de exposição não ativos",
+      "message": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "button": "Configuração"
+    },
+    "notActive": {
+      "title": "Alertas de exposição não ativos",
+      "message00": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "message10": "É necessário habilitar o Serviço de Notificação Exposição em suas configurações",
+      "message01": "É necessário habilitar Bluetooth em suas configurações",
+      "message11": "É necessário habilitar o Serviço de Notificação Exposição e Bluetooth em suas configurações.",
+      "button": "Vá para as configurações",
+      "android": {
+        "button": "Habilitar",
+        "message": "É necessário habilitar o Serviço de Notificação Exposição para ativar alertas de exposição"
+      }
+    },
+    "registrationsTitle": "Inscrições de aplicativos",
+    "registrationsYesterday": "Total de registros de aplicativos",
+    "registrationsHint": "Gráfico mostrando quantos registros houve no aplicativo ao longo do tempo",
+    "shareAppText": "Quanto mais as pessoas que podemos obter utilizando esta aplicação mais eficaz o nosso esforço alerta exposição se tornará. Compartilhar o aplicativo para nos ajudar a alcançar o nosso objectivo.",
+    "uploadCard": {
+      "title": "Enviar alertas",
+      "text": "Para uso apenas quando a equipe de rastreamento de contatos entrar em contato com você."
+    },
+    "closeContactCard": {
+      "title": "Informação de exposição",
+      "text": "O que fazer se você está dito que você é um contacto próximo com alguém com COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Estado",
+        "active": "O serviço é atualmente ativo",
+        "notActive": "Serviço não está ativo",
+        "intro": "Para atualizar suas configurações de permissão, ir para as configurações de aplicativos do seu dispositivo.",
+        "gotoSettings": "Atualizar configurações",
+        "android": {
+          "intro": "Notificações de exposição serviço não está habilitado, clique em Ativar para começar.",
+          "gotoSettings": "Habilitar"
+        }
+      },
+      "clearData": {
+        "title": "Fechar Contactos",
+        "intro": "Toque no botão abaixo para limpar todas as suas contactos próximos eventos.",
+        "button": "Limpar tudo",
+        "confirmTitle": "Fechar Contactos",
+        "confirmText": "Tem certeza de que deseja limpar todos os seus Contatos íntimos?",
+        "cancel": "Cancelar",
+        "confirm": "Confirme",
+        "error": "Ocorreu um erro ao limpar seus Contatos íntimos. Por favor, tente novamente."
+      }
+    }
+  },
+  "confirmedChart": {
+    "title": "Gráfico dos casos por dia",
+    "label": "Casos por dia gráfico",
+    "hint": "Gráfico mostrando casos confirmados diária ao longo do tempo",
+    "yesterday": "casos confirmados ontem",
+    "ranges": {
+      "default": "Últimas duas semanas",
+      "months": "Últimas duas meses",
+      "all": "Tudo"
+    }
+  },
+  "transmissionChart": {
+    "title": "Como COVID-19 está se espalhando",
+    "community": "Transmissão comunitária",
+    "contact": "Contato próximo",
+    "travel": "Viajar para fora"
+  },
+  "statsSource": {
+    "monitor": "COVID-19 Monitor de Vigilância em Saúde",
+    "communityTransmissions": "Comunidade Transmissions, nenhum contato próximo conhecida",
+    "lastUpdatedStats": "Casos confirmados última atualização:",
+    "lastUpdatedProfile": "Casos Perfil última atualização:",
+    "summaryLink": "Mais estatísticas COVID-19 estão disponíveis em [gov.je](https://www.gov.je/Health/Coronavirus/Pages/CoronavirusCases.aspx)"
+  },
+  "symptomsHistory": {
+    "title": "Sua história de sintoma",
+    "symptom": "Sintoma",
+    "symptoms": "Os sintomas",
+    "completed": "Você pode verificar os sintomas de novo amanhã"
+  },
+  "casesByCounty": {
+    "title": "Casos por município"
+  },
+  "yourData": {
+    "title": "Os seus dados",
+    "info": "A aplicação alertá-lo-á sobre um evento de exposição com alguém que tem COVID-19 através de uma notificação. Separadamente, a Equipa de Rastreamento de Contactos de Jersey pode entrar em contacto consigo se uma pessoa recém-diagnosticada o tiver identificado verbalmente como um contacto próximo.",
+    "viewInSettings": "Pode ler este aviso a qualquer momento nas Configurações. Clique em Continuar para avançar.",
+    "continue": "Continuar",
+    "list": {
+      "noId": "A aplicação não partilha informações pessoais com o Governo de Jersey que possam identificá-lo sem o seu consentimento.",
+      "noLocation": "A COVID Alert não usa GPS ou qualquer outra tecnologia para rastrear a sua localização.",
+      "noPerson": "A aplicação nunca recolhe informações pessoais sobre as pessoas com quem esteve em contacto.",
+      "padlock": "Os dados guardados no seu telefone e as ligações ao servidor da COVID Alert são encriptados.",
+      "shield": "Nenhuma informação sobre a sua identidade é partilhada com outros utilizadores da aplicação.",
+      "trashCan": "Os seus dados serão utilizados apenas em relação à resposta à COVID-19 em Jersey, conforme definido no Aviso de Informação de Proteção de Dados. Pode ler mais sobre isto abaixo."
+    }
+  },
+  "sorry": {
+    "title": "Desculpe por ouvir",
+    "info": "Infelizmente você não será capaz de usar o aplicativo mais longe. Você pode voltar a qualquer momento. Basta tocar no botão de volta.",
+    "back": "Volte"
+  },
+  "ageRequirement": {
+    "notice": "Deve ter 16 anos ou mais para usar esta aplicação",
+    "over": "Tenho 16 anos ou mais",
+    "under": "Tenho menos de 16 anos"
+  },
+  "underAge": {
+    "title": "Menos de 16 anos",
+    "notice": "Obrigado pelo seu interesse, mas infelizmente é demasiado jovem para usar esta aplicação.\n\nCuide-se."
+  },
+  "followUpCall": {
+    "title": "Chamada de follow-up de Rastreamento de Contactos",
+    "shortTitle": "Ligue de volta",
+    "intro": "Se tiver mantido contacto próximo com alguém que tenha COVID-19, a aplicação enviar-lhe-á um alerta de exposição. Também pode pedir que a Equipa de Rastreamento de Contactos entre em contacto consigo guardando o seu número na aplicação. A Equipa de Rastreamento de Contactos de Jersey dar-lhe-á informações e orientações e também pode encaminhá-lo para a realização de um teste.",
+    "note": "A aplicação partilha apenas o seu número com a Equipa de Rastreamento de Contactos de Jersey se receber um alerta de exposição. Pode inserir o seu número de telemóvel abaixo ou adicioná-lo mais tarde nas Configurações.",
+    "noteAlt": "Se tiver mantido contacto próximo com alguém que tenha COVID-19, a aplicação enviar-lhe-á um alerta de exposição. Também pode pedir que a Equipa de Rastreamento de Contactos entre em contacto consigo guardando o seu número na aplicação. A Equipa de Rastreamento de Contactos de Jersey dar-lhe-á informações e orientações e também pode encaminhá-lo para a realização de um teste.",
+    "noteSettings": "A aplicação partilha apenas o seu número com a Equipa de Rastreamento de Contactos de Jersey se receber um alerta de exposição. Pode inserir o seu número de telemóvel abaixo ou adicioná-lo mais tarde nas Configurações.",
+    "optIn": "Sim, eu quero opt-in",
+    "noThanks": "Não, obrigado"
+  },
+  "closeContactNotification": {
+    "title": "Alerta de exposição!",
+    "description": "Consulte a aplicação Covid Alert."
+  },
+  "closeContactWarn": {
+    "title": "Alerta de exposição!",
+    "notice": "A aplicação COVID Alert detetou um evento de contacto próximo com alguém que tem COVID-19."
+  },
+  "closeContact": {
+    "title": "Alerta de exposição!",
+    "infoTitle": "Informações de Contactos Próximos",
+    "intro": "Se tiver sido contactado pela Equipa de Rastreamento de Contactos a informar que esteve em contacto próximo com alguém que tem COVID-19, é obrigado a seguir as diretrizes de saúde pública do Governo de Jersey para proteger as outras pessoas, que podem ser consultadas na íntegra em",
+    "alertintro": "A aplicação Jersey COVID Alert detetou um contacto próximo com alguém que tem COVID-19.",
+    "callBack": "Ligue de volta",
+    "callBackQueue": "A equipe de rastreio dos contactos HSE vai chamá-lo o mais rápido possível.",
+    "todo": {
+      "title": "Há algumas coisas que você deve fazer para proteger os outros.",
+      "selfIsolationDetails": "Para mais detalhes sobre como ir auto-isolado para [https://www2.hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact](https://www2. hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact)",
+      "list": "1. Não vá trabalhar.\n\n2. Não viaje, exceto em situações de emergência.\n\n3. Não receba visitas.\n\n4. Não frequente lojas ou a farmácia. Procure apoio de familiares e amigos, faça encomendas online ou [visite as páginas Connect Me]( https://www.gov.je/health/coronavirus/volunteering/Pages/index.aspx) para mais informações.\n\n5. Mantenha-se afastado de pessoas idosas, qualquer pessoa com problemas de saúde crónicos e grávidas.\n\n6. As pessoas com quem vive também devem isolar-se e seguir este conselho.",
+      "intro": "Se esteve exposto a alguém com COVID-19, pode transmitir o vírus a outras pessoas próximas de si. Para proteger as outras pessoas, deve ficar em casa e isolar-se tanto quanto possível."
+    },
+    "symptoms": {
+      "title": "Telefone seu médico se desenvolver sintomas.",
+      "intro": "Saiba mais sobre o que você precisa fazer em hse.ie.",
+      "callHSE": "Ir para HSE.ie"
+    },
+    "howToSelfIsolateLinkTitle": "gov.je - Isolation guidance",
+    "howToSelfIsolateLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/HowToSelfIsolate.aspx",
+    "guidanceAndAdviceLinkTitle": "Aceda a Orientação e Conselhos",
+    "guidanceAndAdviceLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/CoronavirusInformation.aspx",
+    "supportIntro": "Procure apoio de familiares e amigos, faça encomendas online ou visite as páginas Connect Me para mais informações.",
+    "supportIntro1": "Se desenvolver sintomas ou estiver preocupado, ligue para a Linha de Apoio ao Coronavírus.",
+    "supportIntro1NoCallback": "Se desenvolver sintomas ou estiver preocupado, ligue para a Linha de Apoio ao Coronavírus.",
+    "supportIntro2": "Para ler as diretrizes completas, aceda à página Conselhos sobre o Coronavírus em Gov.je.",
+    "supportCallBackLinkLabel": "Linha de Apoio ao Coronavírus através do número +44 1534 44 55 66",
+    "supportCallNumber": "+44 1534 44 55 66",
+    "callBackHeader": "Linha de Apoio ao Coronavírus",
+    "callBackIntro": "Se tiver inserido o seu número de contacto nas Configurações, a Equipa de Rastreamento de Contactos de Jersey entrará em contacto consigo para marcar um teste. Se não tiver disponibilizado o seu número de contacto, também pode pedir um teste ou obter aconselhamento ligando para a Linha de Apoio ao Coronavírus.",
+    "callBackNumber": "+44 1534 44 55 66",
+    "alertWithCallback": {
+      "text": "Se desenvolver sintomas ou estiver preocupado com o facto de poder estar infetado com coronavírus",
+      "link": "ligue para a Linha de Apoio ao Coronavírus através do número +44 1534 44 55 66."
+    },
+    "alertWithoutCallback": {
+      "header": "Equipe de rastreamento de contatos",
+      "text": "Você pode precisar ser testado. Ligue para a equipe de rastreamento de contatos para obter mais orientações específicas para sua situação.",
+      "number": "+44 1534 44 99 44"
+    }
+  },
+  "uploadKeys": {
+    "title": "Alerte outras pessoas que podem estar em risco",
+    "code": {
+      "intro": "Um membro da Equipa de Rastreamento de Contactos de Jersey pedir-lhe-á que partilhe as ID Aleatórias geradas pelo seu telefone nos 14 dias anteriores.\n\nSe autorizar a partilha das suas ID Aleatórias, receberá um código exclusivo de 6 dígitos por mensagem de texto para ativar o upload das suas ID.\n\nInsira aqui o seu código de 6 dígitos:",
+      "expiredError": "Código expirou. Contactar a Equipa de Rastreamento de Contactos para solicitar outro.",
+      "invalidError": "Código inválido. Por favor, tente novamente.",
+      "error": "Ocorreu um erro ao validar o código. Por favor, tente novamente."
+    },
+    "upload": {
+      "intro": "Permita que o aplicativo compartilhe seus IDs aleatórios anônimos para que outros usuários do aplicação que estavam perto de você antes do diagnóstico possam ser notificados de que podem estar em risco.",
+      "button": "Envie alertas."
+    },
+    "permissionError": "Nós não carregou suas chaves como você não concedeu permissão.",
+    "uploadError": "Ocorreu um erro ao tentar carregar",
+    "uploadSuccess": {
+      "toast": "Envio completo",
+      "thanks": "Obrigado.\n\nRecebemos a sua lista de ID Aleatórias e agora iremos alertar os seus contactos próximos de forma anónima. Isto ajudar-nos-á a abrandar a disseminação da COVID-19 e a proteger outras pessoas na nossa comunidade.\n\nContinue a seguir as diretrizes de saúde pública do Governo de Jersey para pessoas infetadas com coronavírus. As suas ações vão ajudar a salvar vidas.",
+      "updates": "Voltar às Atualizações",
+      "howToIsolate": "como ficar se-isolar",
+      "ifInDoubt": "Se tiver dúvidas em relação à sua situação individual, informe-se junto do seu Médico de Família."
+    }
+  },
+  "sex": {
+    "label": "Seu sexo (opcional)",
+    "female": "Fêmea",
+    "male": "Masculino"
+  },
+  "ageRange": {
+    "label": "Sua faixa etária (opcional)",
+    "placeholder": "Escolha a sua faixa etária"
+  },
+  "phoneNumber": {
+    "code": {
+      "label": "O código do seu país",
+      "placeholder": "País",
+      "searchPlaceholder": "Pesquisar um país",
+      "noResults": "Nenhum resultado encontrado nesta pesquisa.\nTente com outra coisa.",
+      "error": {
+        "required": "O código do país é necessária."
+      }
+    },
+    "number": {
+      "label": "Número de telefone (opcional)",
+      "placeholder": "Seu número",
+      "error": {
+        "invalid": "Seu número não é válido. Por favor, forneça seu número de telefone completo.",
+        "short": "Seu número é incompleta. Por favor, forneça seu número de telefone completo.",
+        "required": "Seu número é necessário."
+      },
+      "remove": {
+        "button": "Remova o número.",
+        "title": "Tem certeza de que deseja remover seu número?",
+        "alert": "A equipe de rastreamento de contatos não poderá telefonar se você receber um alerta de exposição.",
+        "yes": "Sim",
+        "no": "Não"
+      }
+    }
+  },
+  "county": {
+    "label": "Seu concelho (opcional)",
+    "placeholder": "Escolha o seu concelho",
+    "searchPlaceholder": "Procurar",
+    "noResults": "Nenhum resultado encontrado nesta pesquisa.\nTente com outra coisa."
+  },
+  "locality": {
+    "label": "Sua localidade (opcional)",
+    "placeholder": "Escolha sua localidade",
+    "searchPlaceholder": "Procurar",
+    "noResults": "Nenhum resultado encontrado nesta pesquisa.\nTente com outra coisa."
+  },
+  "appUsage": {
+    "title": "Métricas da aplicação",
+    "info": "O Governo de Jersey gostaria de entender como usa a aplicação para melhorá-la.\n\nA aplicação recolherá métricas anónimas sobre como a utiliza e sobre a eficácia do processo de Rastreamento de Contactos de Jersey.\n\nAs informações recolhidas não podem ser utilizadas para identificá-lo, são recolhidas diretamente pelo Governo de Jersey sem a utilização de rastreadores de terceiros e apenas com o seu consentimento.",
+    "settingsInfo": "Se mudar de ideias, pode mudar estas autorizações nas Configurações a qualquer momento.",
+    "yesButton": "Sim, dou o meu consentimento.",
+    "noThanks": "Não, obrigado"
+  },
+  "metrics": {
+    "title": "app metrics",
+    "info": "O Governo de Jersey gostaria de entender como usa a aplicação para melhorá-la.\n\nA aplicação recolherá métricas anónimas sobre como a utiliza e sobre a eficácia do processo de Rastreamento de Contactos de Jersey.\n\nAs informações recolhidas não podem ser utilizadas para identificá-lo, são recolhidas diretamente pelo Governo de Jersey sem a utilização de rastreadores de terceiros e apenas com o seu consentimento.",
+    "share": "Métricas de uso aplicativo de compartilhamento"
+  },
+  "tracingAvailable": {
+    "title": "Alerta exposição está agora disponível para você",
+    "text": "Obter configuração agora"
+  },
+  "codeInput": {
+    "accessibilityLabel": "Código dígitos {{number}}",
+    "accessibilityHint": "Digite {{count}} código de três dígitos"
+  },
+  "howTheAppWorks": {
+    "title": "Como Funciona a Aplicação",
+    "close": "Volte",
+    "text": {
+      "bluetooth": "A aplicação usa Bluetooth para trocar códigos aleatórios com outras aplicações COVID Alert nas proximidades – mesmo quando a aplicação está fechada. Os códigos aleatórios mudam regularmente e não podem ser utilizados para identificar a sua localização ou identidade.",
+      "codes": "Várias vezes ao dia, a aplicação verifica os códigos aleatórios que possui com uma lista pública de códigos aleatórios de pessoas que têm COVID-19. Somente as pessoas que fizeram um teste de diagnóstico autorizado podem optar por partilhar os seus códigos aleatórios.",
+      "tracing": "Se fizer o teste e tiver COVID-19, a Equipa de Rastreamento de Contactos irá orientá-lo pelo processo de upload dos seus códigos aleatórios, se decidir partilhá-los.",
+      "exposure": "Se tiver os códigos aleatórios de alguém com COVID-19 no seu telefone e se o evento de contacto foi próximo o suficiente e por tempo suficiente para ser arriscado, a aplicação mostrará um alerta de exposição.",
+      "helpline": "Se receber um Alerta de Exposição, pode optar por pedir à Equipa de Rastreamento de Contactos que entre em contacto consigo para solicitar mais informações e orientação, guardando o seu número de telefone na aplicação. Se optar por disponibilizar o seu número de telefone, será partilhado apenas com a Equipa de Rastreamento de Contactos se receber um Alerta de Exposição.\n\nA aplicação é apenas uma parte da resposta à COVID-19 – usar a aplicação ajudará a conter o vírus, mas se não se sentir bem, deve contactar a Linha de Apoio ao Coronavírus ou o seu médico de família."
+    },
+    "support": {
+      "link": "https://covidalert.gov.je/support",
+      "text": "Mais informações sobre o aplicação podem ser encontradas em covidalert.gov.je"
+    }
+  },
+  "privacyNotice": {
+    "title": "Aviso de Privacidade",
+    "link": "Pode ler o Aviso de Privacidade aqui",
+    "text": "O Aviso de Privacidade não pôde ser carregado"
+  },
+  "language": {
+    "title": "Idioma/lingua",
+    "info": "Escolha o idioma usado no aplicação."
+  },
+  "pause": {
+    "title": "Pausar alertas de exposição",
+    "introduction": "Você pode querer pausar os alertas de exposição se algum dos seguintes se aplicar:\n\n* Você está continuamente usando EPI completo\n* Você está isolado de outras pessoas, mas seu telefone ainda pode captar sinais Bluetooth de pessoas próximas, por exemplo, sozinho em um escritório de vidro ou sala com paredes finas\n* Se você ficar separado do telefone por algum tempo.\n\nPense com cuidado sobre quando reativar os alertas de exposição e considere definir um lembrete. Caso contrário, você precisará reativar os alertas de exposição nas configurações do app.",
+    "dropdown": {
+      "label": "Defina um lembrete para reativar os alertas de exposição em:",
+      "placeholder": "Um tempo definido"
+    },
+    "alternativeTime": "Ou em:",
+    "button": {
+      "label": "Pausar alertas de exposição"
+    },
+    "modalHeader": "Definir hora do lembrete",
+    "intervals": {
+      "4": {
+        "label": "+4 hrs"
+      },
+      "8": {
+        "label": "+8 hrs"
+      },
+      "12": {
+        "label": "+12 hrs"
+      }
+    }
+  },
+  "reminder": {
+    "title": "LEMBRETE: Reative alertas de exposição",
+    "message": "É hora de reativar os alertas de exposição agora."
+  }
+}

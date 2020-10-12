@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#EF8754</color>
+  <color name="colorPrimaryDark">#FEEACE</color>
+  <color name="colorAccentLight">#EF8754</color>
+  <color name="colorAccentDark">#FEEACE</color>
+  <color name="colorText">#2E2E2E</color>
+  <color name="white">#FFFFFF</color>
+  <color name="errorMessage">#FF0000</color>
+  <color name="errorLogButton">#66FFFFFF</color>
+  <color name="colorLight">#EF8754</color>
+  <color name="splashBackground">#EF8754</color>
+  <color name="iconBackground">#EF8754</color>
+</resources>
