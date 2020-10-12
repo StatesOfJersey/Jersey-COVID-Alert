@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>negative-tests</title>
+    <defs>
+        <linearGradient x1="0.0348039216%" y1="50.0285047%" x2="99.9926471%" y2="50.0285047%" id="linearGradient-1">
+            <stop stop-color="#FCC344" offset="0%"></stop>
+            <stop stop-color="#F18956" offset="72.3%"></stop>
+            <stop stop-color="#EE7057" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0166580869%" y1="49.599505%" x2="99.9632587%" y2="49.599505%" id="linearGradient-2">
+            <stop stop-color="#FCC344" offset="0%"></stop>
+            <stop stop-color="#F18956" offset="72.3%"></stop>
+            <stop stop-color="#EE7057" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card/304+/Card-Key-Figures" transform="translate(-16.000000, -173.000000)">
+            <g id="row1" transform="translate(0.000000, 10.000000)">
+                <g id="negative-tests" transform="translate(16.000000, 163.000000)">
+                    <circle id="Oval" fill="#F3F6F9" cx="28" cy="28" r="28"></circle>
+                    <ellipse id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="27.4" cy="17.9" rx="10.2" ry="10.7"></ellipse>
+                    <path d="M47.9,42 C46.7,32.4 34.2,29.3 32.7,29 L32.7,29 C29.6,31.4 25.3,31.4 22.3,29 C20.8,29.3 8.3,32.4 7.1,42 C7,43 7.4,43.9 8.2,44.5 C10.5,46.1 16.3,49.2 27.5,49.2 L27.5,49.2 L27.5,49.2 C38.7,49.2 44.5,46.2 46.8,44.5 C47.6,43.9 48,43 47.9,42 Z M38.5,41.3 C37,43.2 34.6,44.9 34.6,44.9 C34.6,44.9 32.2,43.1 30.7,41.3 C29.2,39.5 30.1,36.8 32,36.8 C33.6,36.8 34.4,37.8 34.6,38.1 C34.8,37.9 35.6,36.8 37.2,36.8 C39,36.7 39.9,39.5 38.5,41.3 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

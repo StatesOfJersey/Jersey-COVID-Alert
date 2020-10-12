@@ -1,0 +1,648 @@
+{
+  "common": {
+    "name": "Jersey COVID Alert",
+    "url": "https://www.gov.je/health/coronavirus/Pages/index.aspx",
+    "message": "Înscrie-te în \"Jersey COVID Alert\" pentru a lupta împotriva COVID-19",
+    "networkError": "Problemă de conexiune. Vă rugăm să verificați conexiunea la internet și încercați din nou.",
+    "missingDataAction": "Reîncarcă pagina",
+    "missingError": "Probleme de incărcare a datelor. Nu am putut să încărcăm corect unele date.",
+    "preferNotToSay": "Prefer să nu spun",
+    "confirmChanges": "Confirm schimbarile",
+    "changesUpdated": "Modificările au fost aplicate",
+    "dismiss": "Închide"
+  },
+  "viewNames": {
+    "age": "Confirmați vârsta",
+    "getStarted": "Începe",
+    "casesByCounty": "Cazuri pe ținut",
+    "updates": "Actualizări",
+    "symptomchecker": "Verificator COVID-19",
+    "settings": "Setări",
+    "uploadKeys": "Încarcă ID-urile aleatorii",
+    "closeContact": "Persoană de contact apropiată",
+    "settingsContactTracing": "Setări aplicatie",
+    "settingsCheckin": "Setări COVID-19 Check-in",
+    "settingsExposureAlert": "Setări alerte expunere",
+    "dataPolicy": "Politica de protecție a datelor",
+    "terms": "Termeni si condiții",
+    "metrics": "Setări pentru statisticile aplicației",
+    "leave": "Părăsește aplicația Jersey COVID-19 Alert",
+    "exposureAlert": "Alertă de expunere",
+    "privacy": "Notificare de confidențialitate a datelor",
+    "language": "Limbă",
+    "settingsFollowUpCall": "Sună înapoi",
+    "howTheAppWorks": "Cum funcționează aplicația?",
+    "pause": "Pune pauză la alertele de expunere"
+  },
+  "navbar": {
+    "settings": "Setări",
+    "settingsHint": "Vizualizați sau modificați setările aplicației",
+    "back": "Înapoi",
+    "backHint": "Navigați la ecranul anterior"
+  },
+  "tabBar": {
+    "updates": "Actualizări",
+    "symptomCheck": "COVID Check-In",
+    "exposureAlert": "Alerte de expunere",
+    "shareApp": "Distribuie aplicația",
+    "settings": "Setări",
+    "shareError": "A apărut o eroare de distribuire. Vă rugăm să încercați din nou sau contactați-ne."
+  },
+  "onboarding": {
+    "intro": {
+      "title": "Aceasta este o modalitate în plus pentru a lupta împotriva pandemiei",
+      "info": "# Alertă expunere\n\nPrimește o notificare daca ai fost expus la cineva care a fost diagnosticat cu COVID-19, in mod confidențial.\n\n# Actualizări\n\nStai actualizat cu ultimele statistici despre COVID-19 in Jersey.\n\n#Distribuie aplicația\n\nAjută să protejezi mai multe persoane încurajând colegii, familia si prietenii sa o folosească.",
+      "action": "Începe",
+      "howItWorks": "Învată cum functionează aplicatia"
+    },
+    "information": {
+      "title": "Pornește notificările pentru alerta de expunere",
+      "highlight": "Expunerea Alert ajută la prevenirea răspândirii COVID-19.",
+      "highlight1": "Această aplicație sprijină activitatea de expunere echipelor Alert DOH, dar aceste echipe pot contacta ca parte de contact urmărire manuală.",
+      "text": "Aplicația are nevoie de permisiunea de a trimite o notificare de alertă de expunere atunci când detectează că ați fost aproape de un alt utilizator al aplicației care a fost recent diagnosticat cu COVID-19, destul de aproape și suficient de lung pentru a vă pune în pericol.\n\nAplicația nu știe locația fizică, identitatea sau identitatea oricărei persoane care vă însoțește.\n\nAceastă aplicație sprijină activitatea Jersey Contact Tracing Team, care poate, de asemenea, să vă contacteze dacă sunteți identificat verbal ca un contact direct de către cineva cu COVID-19.",
+      "text1": "Pentru a activa alerta de expunere pentru această aplicație trebuie să activați:",
+      "text2": "Și pentru a obține o alertă trebuie să activați:",
+      "action": "Continuă",
+      "later": "Poate mai târziu",
+      "skip": "Omite acum",
+      "bluetooth": "Serviciu de notificare a expunerii",
+      "notifications": "Notificări",
+      "quote": "Dacă vă răzgândiți, puteți modifica permisiunile din Setări, în orice moment."
+    },
+    "upgrade": {
+      "ios": {
+        "title": "Apple iOS trebuie să fie actualizat",
+        "text": "Pentru a activa alerta de expunere, trebuie să actualizați iOS Apple la cea mai recentă versiune.",
+        "action": "Verificați dacă sunt actualizări"
+      },
+      "android": {
+        "title": "Google Play Services trebuie să fie actualizat",
+        "text": "Pentru a activa alerta de expunere, trebuie să actualizați Google Play Services la cea mai recentă versiune.",
+        "action": "Verificați daca sunt actualizări"
+      }
+    }
+  },
+  "dataProtectionPolicy": {
+    "title": "Protecția datelor Anunț",
+    "link": "Puteți citi protecția datelor Informații Observă aici",
+    "text": "DPIN nu a putut fi încărcat"
+  },
+  "tandcPolicy": {
+    "title": "Termeni și condiții",
+    "sentence": {
+      "prefix": "Dacă apăsați \"Începe\", acceptați",
+      "link": "Termeni și condiții",
+      "suffix": "."
+    },
+    "text": "Termenii și condițiile nu au putut fi încărcate"
+  },
+  "stats": {
+    "title": "Ultima actualizare",
+    "totalCases": "Numărul total de teste",
+    "totalRegisteredDeaths": "decese înregistrate",
+    "totalHospitalised": "Numărul spitalizat",
+    "totalNegative": "teste negative",
+    "totalRecovered": "cazuri recuperate",
+    "requiredICU": "Obligatoriu ATI",
+    "negativeCases": "Numărul total de teste negative",
+    "positiveCases": "Numărul total de cazuri confirmate pozitive",
+    "recoveredCases": "Numărul total de cazuri confirmate pozitive care s-au recuperat",
+    "pendingCases": "Rezultatul testului este în progres",
+    "activeCasesBreakdown": {
+      "title": "Detalii asupra numărului de cazuri active",
+      "symptomatic": "Simptomatice",
+      "asymptomatic": "Asimptomatice",
+      "casesLocation": "Locația cazurilor active",
+      "hospital": "Spital",
+      "care": "Case de bătrâni",
+      "community": "În comunitate"
+    }
+  },
+  "checker": {
+    "title": "COVID Check-In",
+    "resultTitle": "Mulțumesc",
+    "question1": "**Ai febră? - o temperatură ridicată de peste 38 de grade Celsius**\n\nSymptoms de febra pot include obrajii eritematoase, senzație de oboseală și de a fi cald sau fierbinte la atingere.",
+    "question1id": "febră",
+    "question1Label": "Temperatură ridicată sau frisoane",
+    "question2id": "tuse",
+    "question2": "**Ai orice tip de tuse?**",
+    "question2Label": "Tuse",
+    "question3id": "suflare",
+    "question3": "**Ai dificultăți de respirație?**\n\nAcest ar putea fi ca gafaind sau sentimentul ca tine nu se poate umple plămânii.",
+    "question3Label": "Respiratie dificila",
+    "question4id": "gripă",
+    "question4": "**Ai pierderea simțului gustului sau mirosului?**\n\nAceastă ar putea însemna că nu poți gusta sau miros nimic, sau lucruri gust sau miros diferit la normal.",
+    "question4Label": "Pierderea simțului gustului sau a mirosului",
+    "yes": "da",
+    "no": "Nu",
+    "virusIsolation": "Aceste simptome sunt un meci pentru simptomele de coronavirus. Amintiți-vă, 8 din 10 persoane cu COVID-19 recupera la domiciliu, cu repaus si over-the-counter medicament.\n\n## Ce se face în continuare\n\nVă de auto-izolat la domiciliu altora protejari.\n\nCall medicul de familie pentru a primi sfaturi și a vedea dacă ar trebui să fie testate pentru COVID-19.",
+    "recovered": "Mă bucur să te aud te simți mai bine. Stai bine urmând sfaturile privind hse.ie.",
+    "linkButton": "Citiți mai multe sfaturi aici",
+    "viewHistory": "Vezi istoricul",
+    "introTitle": "COVID Check-In",
+    "introWelcome": "Despre tine",
+    "introButton": "Continua",
+    "noresults": "Nu ați încercat verificatorul simptom încă. Începeți acum apăsând butonul de mai sus",
+    "noSymptomsWell": {
+      "message": "Ne face plăcere să te aud bine te simți. Vă mulțumim pentru verificarea în. Chiar dacă sunt încă bine, vă rugăm să reveniți mâine pentru a-ne cum faci.",
+      "viewHistory": "Vezi istoricul",
+      "advice": "Vizitați hse.ie pentru a citi mai multe despre cum sa te si altii proteja de coronavirus.",
+      "protectionAdvice": "Măsuri de protecție"
+    },
+    "noSymptomsNotWell": {
+      "message": "Vă mulțumim pentru verificarea în. Ne pare rău că nu ești bine să simtă.\n\nDacă aveți simptome, cum ar fi un nas înfundat sau dureri în gât, ar trebui să se comporte ca și cum ai coronavirus și de auto-izolat timp de 14 zile, pentru a proteja alte persoane.\n\nPhone GP pentru a discuta despre simptomele dumneavoastră și dacă aveți nevoie de un test pentru coronavirus.",
+      "viewHistory": "Vezi istoricul",
+      "advice": "Vizitați hse.ie pentru a citi mai multe despre cum sa te si altii proteja de coronavirus.",
+      "protectionAdvice": "Măsuri de protecție"
+    },
+    "riskGroup": {
+      "warning": "Din cauza vârstei dvs., ne-ar plăcea să aibă grijă în plus pentru a vă proteja de COVID-19.\n\nPeople care sunt mai în vârstă și persoanele care au conditiile de sanatate pe termen lung sunt mai expuse riscului de boli grave, în cazul în care obține COVID-19 .",
+      "warningReadMore": "Cititi mai multe despre acest subiect aici",
+      "advice": "Știm că acest lucru nu este un moment ușor. Dacă aveți nevoie de sprijin sau consiliere cu privire la modul de a gestiona la domiciliu, apăsați de mai jos pentru mai multe informații.",
+      "adviceReadMore": "Obțineți mai multe informații"
+    }
+  },
+  "welcome": {
+    "title": "Bună 👋",
+    "text": "COVID Check-In permite tuturor utilizarea aplicației pentru a verifica simptomele și de a primi sfaturi. Aceasta ajută, de asemenea, HSE sa hartă și urmări modul în care COVID-19 afectează Irlanda.\n\nVersiunea COVID Check-In nu dezvăluie identitatea. Aveți posibilitatea să partajați vârsta, sexul și localitatea pentru a ajuta la a face mai multe informații utile pentru analiza sănătății publice.\n\nVersiunea COVID Check-In păstrează, de asemenea, un record pe telefon de orice simptome pe care le-ați avut, astfel încât să puteți verifica din nou și revizuiește în orice moment.",
+    "action": "Da, aș dori să folosesc COVID-19 Check-In",
+    "letUsKnow": "Să ne anunțați dacă aveți simptome astăzi"
+  },
+  "returning": {
+    "title": "Bine ai revenit👋",
+    "subtitle": "Cum te simți azi?",
+    "action1": "Sunt bine, nici un simptom",
+    "action2": "Nu mă simt prea bine azi",
+    "completeTitle": "Mă bucur să aud asta 👍",
+    "completeLink": "Vizualizați istoricul"
+  },
+  "settings": {
+    "title": "Setări",
+    "contactTracing": "Urmărirea contactelor directe",
+    "contactTracingHint": "Vezi sau modifică setările pentru urmarirea contactelor directe",
+    "exposureAlert": "Alerte de expunere",
+    "exposureAlertHint": "Vizualizarea sau modificarea setărilor pentru alerte de expunere",
+    "checkIn": "COVID Check-In",
+    "checkinHint": "Vizualizarea sau modificarea setărilor pentru COVID Check In",
+    "privacyPolicy": "Protecția datelor Anunț",
+    "privacyPolicyHint": "Vezi Protecția datelor Anunț",
+    "termsAndConditions": "Termeni si conditii",
+    "termsAndConditionsHint": "Vezi termenii și condițiile",
+    "metrics": "Setări diverse",
+    "metricsHint": "Vizualizează sau modifică setări diverse",
+    "leave": "Ieșire",
+    "leaveHint": "Ieșire din aplicație",
+    "dataProtection": "Notificare de confidențialitate a datelor",
+    "dataProtectionHint": "Vezi notificarea de confidențialitate a datelor",
+    "privacyNotice": "Notificare de confidențialitate a datelor",
+    "privacyNoticeHint": "Vezi notificarea de confidențialitate a datelor",
+    "language": "Limbă",
+    "languageHint": "Alegeți limba",
+    "followUpCall": "Sună înapoi echipa care gestionează urmărirea contactelor directe",
+    "followUpCallHint": "Specifică numărul tău de telefon pentru a fi sunat înapoi",
+    "howTheAppWorks": "Cum functionează aplicația",
+    "howTheAppWorksHint": "Detalii despre cum funcționează aplicația"
+  },
+  "leave": {
+    "title": "Iesire",
+    "info": "Vă mulțumim că ne ajutați să luptăm cu COVID-19. Ne pare rău că trebuie să pleci.\n\nCând apăsați „Vreau să plec“, vom elimina toate datele stocate de către aplicație de pe dispozitiv, inclusiv numărul de mobil, dacă ați specificat unul. Datele de securitate care sunt folosite pentru comunicarea intre server si aplicație vor fi și ele șterse.\n\n ID-urile aleatorii (RandomID) create sau colectate de catre Serviciul de notificare a expunerii nu poate fi șters de către aplicație – dacă doriți să ștergeți ID-urile aleatorii, puteți să faceți asta din setările telefonului.",
+    "button": "Vreau să ies",
+    "confirmTitle": "Ieșire",
+    "confirmText": "Ești sigur că vrei să pleci?",
+    "cancel": "Anulare",
+    "confirm": "Confirm",
+    "error": "A apărut o eroare la ștergerea datelor. Vă rugăm să încercați din nou sau contactați-ne."
+  },
+  "checkInSettings": {
+    "title": "COVID Check-In",
+    "checkInFirst": "Setările dvs. vor fi vizibile aici imediat ce faci primul check-in.",
+    "intro": "Ați distribuit următoarele informații cu noi.",
+    "gotoCheckIn": "Du-te la COVID Check-In"
+  },
+  "appStats": {
+    "title": "Lupta de azi",
+    "totalCheckins": "Check-Ins total de azi",
+    "noSymptoms": "senzaţie de bine",
+    "someSymptoms": "unele simptome",
+    "nationalPicture": "Imaginea națională",
+    "breakdown": "Atingeți pentru defalcare județ",
+    "usersSinceLaunch": "Numărul de utilizatori de la lansare"
+  },
+  "exposureAlert": {
+    "title": "Alerte de expunere",
+    "active": {
+      "title": "Alerte de expunere active",
+      "subtitle": "Te rog pastrează bluetooth activat"
+    },
+    "noSupport": {
+      "title": "Alerte de expunere nu sunt disponibile",
+      "message": "Din păcate, acest dispozitiv nu poate activa alertele de expunere și nu va poate alerta în cazul în care ați fost langă cineva care are COVID-19."
+    },
+    "canSupport": {
+      "title": "Alerte de expunere nu sunt disponibile",
+      "message": {
+        "ios": "Pentru a activa alerta de expunere trebuie să actualizați iOS la cea mai recentă versiune. (13.5 sau mai mult).",
+        "android": "Pentru a activa alerta de expunere trebuie să actualizați Google Play Services la cea mai recentă versiune."
+      },
+      "button": "Verificați daca sunt actualizări"
+    },
+    "notEnabled": {
+      "title": "Alertele de expunere nu sunt disponibile",
+      "message": "Trebuie să activezi Notificările Serviciului de Expunere pentru a activa alertele de expunere.",
+      "button": "Activat"
+    },
+    "notActive": {
+      "title": "Alertele de expunere nu sunt active",
+      "message00": "Trebuie să activezi Notificările Serviciului de Expunere pentru a activa alertele de expunere.",
+      "message10": "Trebuie să activezi Notificările Serviciului de Expunere in setările dispozitivului dumneavoastră.",
+      "message01": "Trebuie să activați Bluetooth în setările dispozitivului dumneavoastră",
+      "message11": "Trebuie să activezi Notificarile Serviciului de Expunere si Bluetooth în setările dispozitivului dumneavoastră",
+      "button": "Mergi la Setări",
+      "android": {
+        "button": "Permite",
+        "message": "Trebuie să activezi Notificarile Serviciului de Expunere pentru a activa alertele de expunere."
+      }
+    },
+    "registrationsTitle": "Inregistrările aplicației",
+    "registrationsYesterday": "Nr total de inregistrări ale aplicației",
+    "registrationsHint": "Grafic care arată numarul total de inregistrări ale aplicației in timp",
+    "shareAppText": "Cu cât mai multe persoane vor utiliza această aplicație cu atât va fi mai eficientă. Distribuiți aplicația pentru a ajuta!",
+    "uploadCard": {
+      "title": "Ați fost diagnosticat cu COVID-19?",
+      "text": "Cum poți înștiința în mod anonim alte persoane ca au fost expuse la COVID-19"
+    },
+    "closeContactCard": {
+      "title": "Informații cu privire la expunere",
+      "text": "Ce trebuie să faceți dacă vi se spune că ați fost langă cineva care a fost diagnosticat cu COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Stare",
+        "active": "Serviciul este activ",
+        "notActive": "Serviciul nu este activ",
+        "intro": "Nu inregistrați persoanele apropiate și nu veți fi notificat dacă cineva langă care ați stat a fost diagnosticat cu COVID-19.",
+        "gotoSettings": "Actualizați setările",
+        "android": {
+          "intro": "Pentru a actualiza setările de permisiune, accesați setările aplicației de pe dispozitiv.",
+          "gotoSettings": "Actualizați setările"
+        },
+        "ios": {
+          "intro": "Pentru a actualiza setările de permisiune, accesați setările aplicației de pe dispozitiv.",
+          "gotoSettings": "Actualizați setările"
+        }
+      },
+      "clearData": {
+        "title": "Istoric alerte de expunere",
+        "intro": "Apăsați butonul de mai jos pentru a șterge alertele de expunere din ultimele 14 zile.\n\nAlertele de expunere mai vechi de 14 zile sunt șterse automat.",
+        "button": "Șterge tot",
+        "confirmTitle": "Șterge alertele de expunere vechi",
+        "confirmText": "Sunteți sigur că doriți să ștergeți toate notificarile de expunere?",
+        "cancel": "Anulare",
+        "confirm": "Confirma",
+        "error": "A apărut o eroare în ștergerea alertelor de expunere vechi. Vă rugăm să încercați din nou."
+      }
+    },
+    "pause": {
+      "text": "Pauză pentru alertele de expunere",
+      "paused": "Pauză - iți vom aduce aminte la {{time}}",
+      "reactivate": {
+        "label": "Reactivează alertele de expunere"
+      }
+    },
+    "howItWorksCard": {
+      "text": "Cum funcționează aplicația?"
+    }
+  },
+  "contactTracing": {
+    "title": "Alerte de expunere",
+    "active": {
+      "title": "Alerte de expunere active\n\n Te rog păstrează Bluetooth pornit"
+    },
+    "noSupport": {
+      "title": "Alerte de expunere nu sunt disponibile",
+      "message": "Din păcate, acest dispozitiv nu poate suporta serviciul de notificare. Insă puteți utiliza în continuare aplicația pentru actualizări si pentru a o distribui cu alte persoane."
+    },
+    "canSupport": {
+      "title": "Alerte de expunere nu sunt disponibile",
+      "message": {
+        "ios": "Pentru a activa alerta de expunere trebuie să actualizați iOS la cea mai recentă versiune. (13.5 sau mai mult).",
+        "android": "Pentru a activa alerta de expunere trebuie să actualizați Google Play Services la cea mai recentă versiune."
+      },
+      "button": "Verificați dacă există actualizări"
+    },
+    "notEnabled": {
+      "title": "Alertele de expunere nu sunt activate",
+      "message": "Trebuie să pornești serviciul pentru alertele de expunere",
+      "button": "Pornit"
+    },
+    "notActive": {
+      "title": "Alertele de expunere nu sunt activate",
+      "message00": "Trebuie să pornești serviciul pentru alertele de expunere",
+      "message10": "Trebuie să pornești serviciul pentru alertele de expunere",
+      "message01": "Trebuie să activați Bluetooth în setările dispozitivului dumneavoastră",
+      "message11": "Trebuie să activezi Notificările Serviciului de Expunere si Bluetooth în setările dispozitivului dumneavoastră",
+      "button": "Mergi la Setări",
+      "android": {
+        "button": "Permite",
+        "message": "Trebuie să pornesti serviciul pentru alertele de expunere"
+      }
+    },
+    "registrationsTitle": "Inregistrările aplicației",
+    "registrationsYesterday": "Nr total de inregistrări ale aplicației",
+    "registrationsHint": "Grafic care arată nr total de inregistrări ale aplicației in timp",
+    "shareAppText": "Cu cât mai multe persoane vor utiliza această aplicație cu atât va fi mai eficientă. Distribuiți aplicația pentru a ajuta!",
+    "uploadCard": {
+      "title": "Trimite alerte",
+      "text": "Folosiți numai in cazul in care echipa de identificare a contactelor vă contactează"
+    },
+    "closeContactCard": {
+      "title": "Informații cu privire la expunere",
+      "text": "Ce trebuie să faceți dacă primiti o alerta de expunere sau vi se spune ca a-ti stat langa o persoana diagnosticata COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Stare",
+        "active": "Serviciul este activ",
+        "notActive": "Serviciul nu este activ",
+        "intro": "Pentru a actualiza setările de permisiune, accesați setările aplicației de pe dispozitiv.",
+        "gotoSettings": "Actualizați setările",
+        "android": {
+          "intro": "Notificările serviciului de expunere nu sunt activate, faceți clic pe activare pentru a începe.",
+          "gotoSettings": "Permite"
+        }
+      },
+      "clearData": {
+        "title": "Contacte directe",
+        "intro": "Apăsați butonul de mai jos pentru a șterge istoricul alertelor de expunere.",
+        "button": "Șterge tot",
+        "confirmTitle": "Alerte de expunere istorice",
+        "confirmText": "Sunteți sigur că doriți să ștergeți istoricul alertelor de expunere?",
+        "cancel": "Anulare",
+        "confirm": "Confirmă",
+        "error": "A apărut o eroare în ștergerea alertelor de expunere. Mai încearcă încă o dată"
+      }
+    }
+  },
+  "confirmedChart": {
+    "title": "Cazuri confirmate zilnic",
+    "label": "Cazuri prin grafic zi",
+    "hint": "Grafic care prezintă cazuri confirmate de zi cu zi a lungul timpului",
+    "yesterday": "cazuri confirmate ieri",
+    "ranges": {
+      "default": "Cazuri confirmate în ultimile 2 săptamăni",
+      "months": "Cazuri confirmate în ultimile 2 luni",
+      "all": "Cazuri confirmate în total"
+    }
+  },
+  "transmissionChart": {
+    "title": "Cum se răspândește COVID-19",
+    "community": "Transmitere în comunitate",
+    "contact": "Contact apropiat",
+    "travel": "Călători în străinătate"
+  },
+  "statsSource": {
+    "monitor": "COVID-19 Monitor de Supraveghere a Sănătații",
+    "communityTransmissions": "Transmisiile în comunitate, fără a cunoaște un contact apropiat",
+    "lastUpdatedStats": "Actualizare a cazurilor confirmate:",
+    "lastUpdatedProfile": "Actualizare a profilului cazurilor:",
+    "summaryLink": "Mai multe statistici COVID-19 sunt disponibile pe [gov.je](https://www.gov.je/Health/Coronavirus/Pages/CoronavirusCases.aspx)"
+  },
+  "symptomsHistory": {
+    "title": "Istoricul simptom",
+    "symptom": "Simptom",
+    "symptoms": "Simptome",
+    "completed": "Puteți verifica din nou simptome mâine"
+  },
+  "casesByCounty": {
+    "title": "Cazuri pe ținut"
+  },
+  "yourData": {
+    "title": "Datele tale",
+    "info": "Aplicația te va alerta dacă detectează că ai fost lângă alt utilizator al aplicației care a fost recent diagnosticat cu COVID-19. Alerta va fi disponibilă doar în telefonul tău și nu va fi distribuită către nimeni altcineva. Însă echipa medicală COVID-19 din Jersey te poate contacta telefonic dacă o persoană care a fost diagnosticată recent te-a identificat verbal ca fiind un contact direct.",
+    "viewInSettings": "Puteți vedea această notificare, în orice moment în Setări. Apăsați pe Continuați pentru a continua.",
+    "continue": "Continuă",
+    "list": {
+      "noId": "Această aplicație nu distribuie nicio dată personală cu Guvernul din Jersey fără consimțământul tău.",
+      "noLocation": "Această aplicație nu folosește tehnologie GPS sau orice altă tehnologie pentru ați înregistra locația sau mișcările.",
+      "noPerson": "Această aplicație nu colectează nicio informație personală despre tine sau despre persoanele cu care ai fost in contact",
+      "padlock": "Datele sunt stocate în telefonul tău și conexiunile către server sunt criptate",
+      "shield": "Nicio informație cu privire la indentitatea ta nu sunt distribuite altor utilizatori ai aplicației",
+      "trashCan": "Datele tale vor fi folosite doar în legatură cu lupta împotriva COVID-19 în Jersey așa cum este detaliat în Notificarea de Confidențialitate. Poți citi mai multe mai jos."
+    }
+  },
+  "sorry": {
+    "title": "Imi pare rău să aud asta",
+    "info": "Din păcate, nu vei mai putea utiliza aplicația in continuare. Insă, poți reveni în orice moment. Este suficient să atingeți butonul înapoi.",
+    "back": "Înapoi"
+  },
+  "ageRequirement": {
+    "notice": "Trebuie să ai cel puțin 16 ani pentru a utiliza această aplicație",
+    "over": "Sunt 16 sau mai în vârstă",
+    "under": "Sunt sub 16 ani"
+  },
+  "underAge": {
+    "title": "Sub 16",
+    "notice": "Vă mulțumim pentru interesul dumneavoastră, dar, din păcate, nu ai vârsta necesară pentru a folosi această aplicație.\n\n Multă sănatate."
+  },
+  "followUpCall": {
+    "title": "Sună înapoi echipa care gestionează urmărirea contactelor directe",
+    "shortTitle": "Suna inapoi",
+    "intro": "Aplicația vă va trimite o alertă de expunere dacă ați fost langă alt utilizator al aplicației care a fost recent diagnosticat cu COVID-19. Tot prin aplicație poți cere să fi contactat de către echipa medicală din Jersey când primești o alertă de expunere, dacă iți vei adăuga numărul de telefon în aplicație. Echipa medicală din Jersey vă va furniza sfaturi și susținere și vă poate trimite la un test de COVID-19.",
+    "note": "Aplicația va distribui numărul tău de telefon doar echipei medicale din Jersey dacă primești o alertă de expunere.\n\nPoți să iți introduci numărul de telefon mai jos, sau îl poți adăuga mai târziu în setări.",
+    "noteAlt": "Aplicația îți va trimite o alertă de expunere dacă ai fost lângă un alt utilizator al aplicației care a fost recent diagnosticat cu COVID-19.\n\nPoți cere să fi sunat de echipa medicală din Jersey când primești o alertă de expunere, dacă îți adaugi numărul de telefon în aplicație.\n\nPoți să îți adaugi numărul de telefon mai jos, sau îl poți adăuga mai târziu. Numărul tau de telefon va fi distribuit doar echipei medicale din Jersey dacă ai primit o alertă de expunere.\n\n Trebuie să îți introduci numarul de telefon inainte să primești o alertă pentru a fi contactat de echipa medicală din Jersey.\n\nDacă nu ai introdus numărul de telefonul, insă dorești sfaturi medicale te rog sună la \"Coronavirus Helpline\" [+44 153 444 5566](tel:+441534445566)",
+    "noteSettings": "Dacă doriți, vom încerca să vă apelam pentru a vă oferi asistență după ce primiți o notificare de expunere.\n\nNumarul dumneavoastră va fi distribuit echipei medicale din Jersey doar dacă ați primit o alertă de expunere.",
+    "optIn": "Da, doresc să mă înscriu",
+    "noThanks": "Nu, mulțumesc"
+  },
+  "closeContactNotification": {
+    "title": "Alertă de expunere!",
+    "description": "Vă rugăm să verificați aplicația acum."
+  },
+  "closeContactWarn": {
+    "title": "Alertă de expunere!",
+    "notice": "Aplicația a detectat că ați fost în contact cu cineva care a testat pozitiv pentru COVID-19."
+  },
+  "closeContact": {
+    "title": "Alertă de expunere!",
+    "infoTitle": "Informație cu privire la expunere",
+    "intro": "Dacă ați primit o alertă de expunere, înseamnă că ați stat suficient de mult langă un alt utilizator al aplicației care recent a fost diagnosticat cu COVID-19 și deci există un grad de risc.\n\nVă recomandăm să urmăriți instrucțiunile de sănatate puse la dispozitie de Guvernul din Jersey care pot fi găsite pe:",
+    "alertintro": "Jersey COVID Alert App a detectat că ați fost în contact apropiat cu cineva care a testat pozitiv pentru coronavirus.",
+    "callBack": "Suna inapoi",
+    "callBackQueue": "Echipa de urmărire de contact HSE vă va suna cât mai curând posibil.",
+    "todo": {
+      "title": "Sunt cațiva pași pe care poți să ii faci pentru a proteja alte persoane.",
+      "selfIsolationDetails": "Pentru detalii cu privire la modul de a merge auto-izolat la [https://www2.hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact](https://www2. hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact)",
+      "list": "1. Nu merge la locul de muncă.\n\n2. Nu vizita alte regiuni decât în situații de urgență.\n\n3 Nu primii oaspeți în casă.\n\n4. Nu merge la magazine sau farmacie. Caută ajutor din partea familiei sau al prietenilor, comandă online, sau vizitează [Connect Me pages](https://www.gov.je/health/coronavirus/volunteering/Pages/index.aspx) pentru ajutor.\n\n5. Ai grijă în mod special să eviți persoanele în varstă, femeile însărcinate, sau pe orcine cu o boală cronică.\n\n6. Toți cei care locuiesc cu tine trebuie să urmeze acest sfat.",
+      "intro": "Dacă ai fost expus la cineva care are COVID-19 și tu poți transmite virusul altora din jurul tău.\n\nPentru a proteja comunitatea ar trebui să limitezi interacțiunile cu alte persoane cât mai mult posibil."
+    },
+    "symptoms": {
+      "title": "Sună-ți medicul (GP) dacă îți apar simptome",
+      "intro": "Aflați mai multe despre ceea ce trebuie să faci pe hse.ie.",
+      "callHSE": "Du-te la HSE.ie"
+    },
+    "howToSelfIsolateLinkTitle": "gov.je - Ghid pentru izolare",
+    "howToSelfIsolateLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/HowToSelfIsolate.aspx",
+    "guidanceAndAdviceLinkTitle": "Mergi la instrucțiuni și sfaturi",
+    "guidanceAndAdviceLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/CoronavirusInformation.aspx",
+    "supportIntro": "Solicită ajutorul familiei si al prietenilor sau vizitează pagina \"Connect Me\" pentru ajutor.",
+    "supportIntro1": "Dacă dezvolti simptome sau ești îngrijorat te rog să suni la \"Coronavirus Helpline\".",
+    "supportIntro1NoCallback": "Dacă dezvolti simptome sau ești îngrijorat te rog să suni la \"Coronavirus Helpline\".",
+    "supportIntro2": "Pentru a citi instrucțiunile în totalitate vizitează pagina web Gov.je \"Coronavirus Advise\".",
+    "supportCallBackLinkLabel": "Numărul de urgentă \"Coronavirus Helpline\" este +44 1534 44 55 66",
+    "supportCallNumber": "+44 1534 44 55 66",
+    "callBackHeader": "Coronavirus Helpline",
+    "callBackIntro": "Dacă ați furnizat numărul de telefon în setările aplicației, echipa medicală din Jersey vă va contacta pentru a aranja un test. Dacă nu ați furnizat un numar de telefon, puteți cere un test dumneavoastră direct sau puteți cere sfaturi medicale sunând la \"Coronavirus Helpline\".",
+    "callBackNumber": "+44 1534 44 55 66",
+    "alertWithCallback": {
+      "text": "Dacă dezvolți simptome sau ești îngrijorat.",
+      "link": "te rog sună la \"Coronavirus Helpline\" +44 1534 44 55 66"
+    },
+    "alertWithoutCallback": {
+      "header": "Contactați echipa de urmărire",
+      "text": "Este posibil să fie nevoie să fiți testați. Vă rugăm să contactați echipa de urmărire a contactelor pentru sfaturi suplimentare specifice situației dumneavoastră.",
+      "number": "+44 1534 44 99 44"
+    }
+  },
+  "uploadKeys": {
+    "title": "Alertează persoanele care pot fi expuse riscului",
+    "code": {
+      "intro": "Veți putea efectua acest lucru cu ajutorul echipei medicale din Jersey care vă va suna în cazul în care aveți un test pozitiv de COVID-19.\n\n1. Introdu numărul de 6 cifre pe care l-ați primit de la echipa medicală din Jersey.\n\n2. Dă-ți acordul ca aplicația să avertizeze alte persoane dacă au fost expuse.\n\n3. Permite telefonului să stocheze în mod anonim ID-urile aleatorii.\n\nNimeni nu va obține nicio informație cu privire la tine sau momentul când ați fost aproape de ei.\n\nIntrodu codul de 6 cifre aici:",
+      "expiredError": "Codul a expirat. Contactați echipa medicală Jersey pentru a solicita un cod nou.",
+      "invalidError": "Cod invalid. Vă rugăm să încercați din nou.",
+      "error": "A apărut o eroare la validarea codului. Vă rugăm să încercați din nou."
+    },
+    "upload": {
+      "intro": "Te rog permite aplicației să distribuie în mod confidențial ID-urile aleatorii pentru ca alți utilizatori ai aplicației care au stat langă dumneavoastră să fie notificați că ar putea fi expusi riscului.",
+      "button": "Trimite alerte"
+    },
+    "permissionError": "Noi nu am încărcat datele pentru că nu ne-ai acordat permisiunea.",
+    "uploadError": "A apărut o eroare la încercarea de a încărca",
+    "uploadSuccess": {
+      "toast": "Încărcare completă",
+      "thanks": "Vă mulțumim.\n\n Aplicația va notifica alți utilizatori că ar putea fi expusi. Acest lucru va incetini răspândirea COVID-19 și va proteja comunitatea.\n\nTe rog continuă să urmărești sfaturile medicale ale Guvernului din Jersey în legătură cu COVID-19. Acțiunile tale vor ajuta să salvăm vieți.",
+      "updates": "Înapoi la Actualizări",
+      "howToIsolate": "Cum să te autoizolezi",
+      "ifInDoubt": "Daca ești îngrijorat cu privire la situația ta individuală, te rog caută sfatul medicului (GP)"
+    }
+  },
+  "sex": {
+    "label": "sexul (opțional)",
+    "female": "Femeie",
+    "male": "Masculin"
+  },
+  "ageRange": {
+    "label": "intervalul de vârstă (opțional)",
+    "placeholder": "Alegeți intervalul de vârstă"
+  },
+  "phoneNumber": {
+    "code": {
+      "label": "Codul de țară",
+      "placeholder": "Țară",
+      "searchPlaceholder": "Caută o țară",
+      "noResults": "Nu există rezultate pentru această căutare.\\nÎncercați cu altceva.",
+      "error": {
+        "required": "Este nevoie de codul de țară."
+      }
+    },
+    "number": {
+      "label": "Numărul dvs. de telefon (opțional)",
+      "placeholder": "Numărul dvs",
+      "error": {
+        "invalid": "Numărul dvs. nu este valid. Vă rugăm să furnizați numărul dvs. de telefon complet.",
+        "short": "Numărul dvs. este incomplet. Vă rugăm să furnizați numărul dvs. de telefon complet.",
+        "required": "Numărul tău este obligatoriu."
+      },
+      "remove": {
+        "button": "Șterge numărul",
+        "title": "Ești sigur că vrei să ștergi numărul?",
+        "alert": "Acestă acțiune va împiedica echipa medicală din Jersey să te sune în cazul în care a primit o alertă.",
+        "yes": "Da",
+        "no": "Nu"
+      }
+    }
+  },
+  "county": {
+    "label": "județul dumneavoastră (opțional)",
+    "placeholder": "Alege judetul dvs.",
+    "searchPlaceholder": "Căutare",
+    "noResults": "Nu există rezultate pentru această căutare. \nÎncercați cu altceva."
+  },
+  "locality": {
+    "label": "localitatea dvs. (opțional)",
+    "placeholder": "Alege localitatea",
+    "searchPlaceholder": "Căutare",
+    "noResults": "Nu există rezultate pentru această căutare. \nÎncercați cu altceva."
+  },
+  "appUsage": {
+    "title": "Setări diverse",
+    "info": "Guvernul din Jersey dorește să înțeleagă cum ați folosit aplicația și cum o poate îmbunătăți.\n\nAplicația va colecta statistici anonime despre cum este folosită, de exemplu dacă aplicația funcționează.\n\nAcestă informație nu este asociată cu identitatea dumneavoastră și nu poate fi folosită să vă identifice. Statisticile sunt colectate direct de către Guvernul din Jersey fără a implica terțe părti și vor fi colectate doar cu consințământul dumneavoastră.",
+    "settingsInfo": "Dacă vă răzgândiți, puteți modifica aceste permisiuni în Setări, în orice moment.",
+    "yesButton": "Da sunt de acord.",
+    "noThanks": "Nu, mulțumesc"
+  },
+  "metrics": {
+    "title": "Setări diverse",
+    "info": "Guvernul din Jersey dorește să înteleagă cum ați folosit aplicația și cum o poate îmbunătați.\n\nAplicația va colecta statistici anonime despre cum este folosită, de exemplu dacă aplicația functionează.\n\nAcestă informație nu este asociată cu identitatea dumneavoastră si nu poate fi folosită să vă identifice. Statisticile sunt colectate direct de către Guvernul din Jersey fără a implica terțe părți și vor fi colectate doar cu consințământul dumneavoastră.",
+    "share": "Trimite statistici de utilizare al aplicației"
+  },
+  "tracingAvailable": {
+    "title": "Alertele sunt acum activate",
+    "text": "Obțineți configurare acum"
+  },
+  "codeInput": {
+    "accessibilityLabel": "Cifra codului {{number}}",
+    "accessibilityHint": "Introduceți {{count}} codul de cifre"
+  },
+  "howTheAppWorks": {
+    "title": "Cum funcționează aplicația?",
+    "close": "Înapoi",
+    "text": {
+      "bluetooth": "Aplicația folosește tehnologia Bluetooth pentru a schimba coduri anonime numinte ID-uri aleatorii cu alte aplicații COVID-19 din vecinătatea dumneavoastra - chiar dacă aplicația este închisă. Aceste ID-uri aleatorii se schimbă frecvent si nu pot fi folosite pentru a vă identifica pe dumneavoastră sau locația dumneavoastră.",
+      "codes": "De câteva ori pe zi, aplicația verifica ID-urile aleatorii pe care telefonul le-a primit de la persoane din apropiere cu o lista de ID-uri aleatorii ale persoanelor care sunt diagnosticate cu COVID-19.",
+      "tracing": "Dacă ai efectuat un test pozitiv de COVID-19 echipa medicală din Jersey te va suna și iți va spune care este procesul pentru a încărca ID-urile aleatorii pentru a notifica alte persoane dacă doresti să faci acest lucru.",
+      "exposure": "Dacă ai pe aplicația din telefonul tău ID-ul aleatoriu al unei persoane care are COVID-19 (si dacă ai stat langă acea persoană suficient încât să fi expus riscului) aplicația iți va trimite o alertă. Apoi tu vei putea să iei măsuri de a te proteja pe tine, pe familia ta și pe prietenii tăi.",
+      "helpline": "Aplicația este doar o parte a acțiunilor împotriva COVID-19. Daca folosești acestă aplicație vei ajuta la ținerea virusului sub control. Dar dacă nu te simți bine va trebui sa contactezi \"Coronavirus Helpline\" sau medicul tău (GP)."
+    },
+    "support": {
+      "link": "https://covidalert.gov.je/support",
+      "text": "Mai multe informații despre aplicație pot fi găsite la covidalert.gov.je"
+    }
+  },
+  "privacyNotice": {
+    "title": "Notificare de confidențialitate a datelor",
+    "link": "Poți citi aici notificarea de confidențialitate a datelor",
+    "text": "Notificarea de confidențialitate a datelor nu a putut fi incarcata"
+  },
+  "language": {
+    "title": "Limbă",
+    "info": "Alege limba"
+  },
+  "pause": {
+    "title": "Pauză alerte",
+    "introduction": "Poate doriți să întrerupeți alertele de expunere dacă se aplică oricare dintre următoarele:\n\n*Purtați continuu un EIP complet într-un mediu clinic\\n*Sunteți izolat de ceilalți, dar telefonul dvs. poate prelua în continuare semnale Bluetooth de la persoanele din apropiere, de exemplu singur într-un birou sau cameră de sticlă cu pereți subțiri\\n*Dacă sunteți separat de telefon pentru o perioadă de timp.\n\nGândiți-vă cu atenție când trebuie să reactivați alertele de expunere și luați în considerare setarea unui memento. În caz contrar, va trebui să reactivați alertele de expunere în Setările aplicației.",
+    "dropdown": {
+      "label": "Setează când dorești să reactivezi alertele de expunere",
+      "placeholder": "Setează un timp"
+    },
+    "alternativeTime": "sau în",
+    "button": {
+      "label": "Pauza alerte"
+    },
+    "modalHeader": "Setează un timp",
+    "intervals": {
+      "4": {
+        "label": "+4 hrs"
+      },
+      "8": {
+        "label": "+8 hrs"
+      },
+      "12": {
+        "label": "+12 hrs"
+      }
+    }
+  },
+  "reminder": {
+    "title": "Amintire: reactivează alertele",
+    "message": "Este momentul să reactivezi alertele acum"
+  }
+}

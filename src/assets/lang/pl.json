@@ -1,0 +1,648 @@
+{
+  "common": {
+    "name": "Jersey COVID Alert",
+    "url": "https://www.gov.je/health/coronavirus/Pages/index.aspx",
+    "message": "Dołącz do Jersey COVID Alert aby walczyć z COVID-19",
+    "networkError": "Problem z połączeniem. Proszę sprawdzić połączenie internetowe i spróbować ponownie.",
+    "missingDataAction": "Odśwież stronę",
+    "missingError": "Problem z ładowaniem. Nie byliśmy w stanie załadować niektórych danych poprawnie.",
+    "preferNotToSay": "Wolę nie mówić",
+    "confirmChanges": "Potwierdź zmiany",
+    "changesUpdated": "Zaktualizowano zmiany",
+    "dismiss": "Odrzucić"
+  },
+  "viewNames": {
+    "age": "Potwierdź swój wiek",
+    "getStarted": "Rozpocznij",
+    "casesByCounty": "Przypadki według County",
+    "updates": "Aktualizacje",
+    "symptomchecker": "COVID Checker",
+    "settings": "Ustawienia",
+    "uploadKeys": "Prześlij swoje Losowe Kody",
+    "closeContact": "Bliski kontakt",
+    "settingsContactTracing": "Ustawienia śledzenie kontaktu",
+    "settingsCheckin": "COVID Ustawienia Check In",
+    "settingsExposureAlert": "Ustawienia alarmu ekspozycji",
+    "dataPolicy": "Informacje o ochronie danych osobowych",
+    "terms": "Warunki użytkowania",
+    "metrics": "Ustawienia wskaźników aplikacji",
+    "leave": "Opuszczenie aplikacji",
+    "exposureAlert": "Alarm ekspozycji",
+    "privacy": "Prywatność aplikacji i jak wykorzystujemy Twoje dane",
+    "language": "Język",
+    "settingsFollowUpCall": "Kontakt zwrotny Zespołu śledzenia kontaktu",
+    "howTheAppWorks": "Jak działa aplikacja",
+    "pause": "Wstrzymaj alarm ekspozycji"
+  },
+  "navbar": {
+    "settings": "Ustawienia",
+    "settingsHint": "Wyświetlanie i zmienianie ustawień aplikacji",
+    "back": "Wstecz",
+    "backHint": "Powrót do poprzedniej strony"
+  },
+  "tabBar": {
+    "updates": "Aktualizacje",
+    "symptomCheck": "COVID zameldowanie",
+    "exposureAlert": "Alarm ekspozycji",
+    "shareApp": "Podziel się aplikacją",
+    "settings": "Ustawienia",
+    "shareError": "Wystąpił błąd podczas dzielenia. Spróbuj ponownie lub skontaktuj się z nami."
+  },
+  "onboarding": {
+    "intro": {
+      "title": "Dodatkowe narzędzie do walki z pandemią",
+      "info": "Otrzymuj powiadomienia, jeśli wystąpił kontakt z osobą zarażoną COVID-19, jednocześnie chroniąc swoją prywatność",
+      "action": "Rozpocznij",
+      "howItWorks": "Dowiedz się, jak działa aplikacja"
+    },
+    "information": {
+      "title": "Włącz powiadomienia o ekspozycji na COVID-19",
+      "highlight": "Ekspozycja Alert pomaga zapobiegać rozprzestrzenianiu się COVID-19.",
+      "highlight1": "Ta aplikacja obsługuje pracę narażenia drużyny Doh jest czujny, ale te zespoły mogą również kontaktować się z Tobą w ramach kontaktu ręcznego śledzenia.",
+      "text": "Aplikacja wymaga zgody użytkownika, aby móc wysyłać alarmy ekspozycji, jeżeli wykryty został bliski kontakt z osobą zarażoną COVID-19, która także używa aplikacji.",
+      "text1": "Aby uruchomić alarm ekspozycji, w aplikacji należy włączyć:",
+      "text2": "Aby otrzymywać alarmy, należy włączyć:",
+      "action": "Kontyntynuuj",
+      "later": "Może później",
+      "skip": "Pomiń na razie",
+      "bluetooth": "Usługi powiadamiania o ekspozycji",
+      "notifications": "Powiadomienia",
+      "quote": "W każdej chwili można zmienić te zezwolenia w ustawieniach"
+    },
+    "upgrade": {
+      "ios": {
+        "title": "Apple iOS musi być zaktualizowany",
+        "text": "Aby włączyć alarm ekspozycji, należy uaktualnić do najnowszej wersji systemu Apple iOS.",
+        "action": "Sprawdź, czy nie ma uaktualnień"
+      },
+      "android": {
+        "title": "Usługi Google Play muszą być zaktualizowane",
+        "text": "Aby włączyć alarm ekspozycji, należy uaktualnić do najnowszej wersji usług Google Play.",
+        "action": "Sprawdź, czy nie ma uaktualnień"
+      }
+    }
+  },
+  "dataProtectionPolicy": {
+    "title": "Informacja o ochronie danych Wskazówka",
+    "link": "Możesz przeczytać o ochronie danych informacyjne tutaj",
+    "text": "DPIN nie można załadować"
+  },
+  "tandcPolicy": {
+    "title": "Warunki użytkowania",
+    "sentence": {
+      "prefix": "Jeżeli stukniesz „Rozpocznij”, akceptujesz Warunki użytkowania",
+      "link": "Warunki użytkowania",
+      "suffix": "."
+    },
+    "text": "Nie można załadować Warunków użytkowania"
+  },
+  "stats": {
+    "title": "Aktualizacje",
+    "totalCases": "Testy ogółem",
+    "totalRegisteredDeaths": "zarejestrowanych zgonów",
+    "totalHospitalised": "liczba hospitalizowanych",
+    "totalNegative": "testy negatywne",
+    "totalRecovered": "odzyskane przypadki",
+    "requiredICU": "Wymagane ICU",
+    "negativeCases": "Wszystkie testy negatywne",
+    "positiveCases": "Wszystkie potwierdzone pozytywne przypadki",
+    "recoveredCases": "Wszystkie wyzdrowienia",
+    "pendingCases": "Oczekujące wyniki testów",
+    "activeCasesBreakdown": {
+      "title": "Znany podział aktywnych przypadków",
+      "symptomatic": "Objawowe",
+      "asymptomatic": "Bezobjawowe",
+      "casesLocation": "Lokacja znanych aktywnych przypadków",
+      "hospital": "Szpital",
+      "care": "Domy opieki",
+      "community": "Społeczność"
+    }
+  },
+  "checker": {
+    "title": "COVID zameldowanie",
+    "resultTitle": "Dziękuję Ci",
+    "question1": "**Czy masz gorączkę? - wysoką temperaturę ponad 38 stopni Celsjusza**\n\nSymptoms z gorączką mogą obejmować wypiekami na twarzy, uczucie zmęczenia i jest ciepło lub gorąco w dotyku.",
+    "question1id": "gorączka",
+    "question1Label": "Wysoka temperatura i dreszcze",
+    "question2id": "kaszel",
+    "question2": "**Czy masz jakiś rodzaj kaszlu?**",
+    "question2Label": "Kaszel",
+    "question3id": "oddech",
+    "question3": "**Czy masz jakieś problemy z oddychaniem?**\n\nW może być jak dysząc lub uczucie jak nie można napełnić płuca.",
+    "question3Label": "trudności w oddychaniu",
+    "question4id": "grypa",
+    "question4": "**Czy masz jakąkolwiek utratę poczucia smaku lub zapachu?**\n\nW może oznaczać, że nie może nic smak lub zapach lub smak lub zapach rzeczy różni się od normalnego.",
+    "question4Label": "Utrata poczucia smaku i zapachu",
+    "yes": "tak",
+    "no": "Nie",
+    "virusIsolation": "Objawy te są dopasowane do objawów koronawirusa. Pamiętaj, że 8 z 10 osób z COVID-19 odzyskać w domu z odpoczynku i over-the-counter medycyny.\n\n## Co dalej\n\nProszę izolat siebie w domu, aby chronić innych.\n\nCall Twój GP uzyskać poradę i sprawdzić, czy powinny być badane na COVID-19.",
+    "recovered": "Dobrze słyszeć, że czujesz się lepiej. Bądź dobrze postępując zgodnie ze wskazówkami na hse.ie.",
+    "linkButton": "Czytaj więcej porad tutaj",
+    "viewHistory": "Zobacz moją historię",
+    "introTitle": "COVID zameldowanie",
+    "introWelcome": "O Tobie",
+    "introButton": "Kontyntynuj",
+    "noresults": "Nie próbowałem jeszcze sprawdzania objawów. Zacznij teraz naciskając przycisk powyżej",
+    "noSymptomsWell": {
+      "message": "Jesteśmy szczęśliwi, aby usłyszeć, że czujesz się dobrze. Dziękuję za sprawdzenie w. Nawet jeśli są jeszcze dobrze, proszę wrócić jutro do daj nam znać jak robisz.",
+      "viewHistory": "Zobacz moją historię",
+      "advice": "Wizyta hse.ie aby przeczytać więcej o tym, jak chronić siebie i innych przed koronawirusa.",
+      "protectionAdvice": "Wskazówki w zakresie ochrony"
+    },
+    "noSymptomsNotWell": {
+      "message": "Dziękuję za sprawdzenie w. Niestety, aby usłyszeć nie jesteś feeing dobrze.\n\nW masz objawy takie jak katar nosa lub ból gardła, trzeba zachowywać się jak masz koronawirusa i poczucie izolat przez 14 dni, aby chronić innych ludzi.\n\nPhone lekarza rodzinnego, aby omówić swoje objawy i czy potrzebny jest test dla koronawirusa.",
+      "viewHistory": "Zobacz moją historię",
+      "advice": "Wizyta hse.ie aby przeczytać więcej o tym, jak chronić siebie i innych przed koronawirusa.",
+      "protectionAdvice": "Wskazówki w zakresie ochrony"
+    },
+    "riskGroup": {
+      "warning": "Ze względu na swój wiek, chcielibyśmy zachować szczególną ostrożność, aby chronić się przed COVID-19.\n\nPeople którzy są starsi i ludzie, którzy długo utrzymujące się warunki zdrowotne są bardziej narażone na poważne choroby, jeśli się COVID-19 ,",
+      "warningReadMore": "Czytaj więcej na ten temat tutaj",
+      "advice": "Wiemy, że to nie jest łatwy czas. Jeśli potrzebujesz pomocy lub porady na temat zarządzania w domu, kran poniżej, aby uzyskać więcej informacji.",
+      "adviceReadMore": "Zdobądź więcej informacji"
+    }
+  },
+  "welcome": {
+    "title": "Cześć 👋",
+    "text": "COVID zameldowanie pozwala każdemu korzystania z aplikacji w celu sprawdzenia objawów i inne informacje. Pomaga również HSE do map i śledzić COVID-19 wpływa na Irlandię.\n\nIm COVID zameldowanie nie ujawniać swojej tożsamości. Możesz podzielić się wiek, płeć i lokalizację, aby uczynić informacje bardziej przydatne do analizy w dziedzinie zdrowia publicznego.\n\nIm COVID zameldowanie zachowuje również zapis w telefonie jakichkolwiek objawów miałeś, więc można sprawdzić z powrotem i przeglądu w dowolnym czasie.",
+    "action": "Tak, chciałbym użyć COVID Zameldowanie",
+    "letUsKnow": "Daj nam znać, jeśli masz\nsymptoms dzisiaj"
+  },
+  "returning": {
+    "title": "Witamy z powrotem 👋",
+    "subtitle": "Jak się dzisiaj czujesz?",
+    "action1": "Jestem dobry, żadnych objawów",
+    "action2": "nie czuję się dobrze dzisiaj",
+    "completeTitle": "Wspaniale usłyszeć 👍",
+    "completeLink": "Wyświetlanie historii"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "contactTracing": "Kontakt Tracing",
+    "contactTracingHint": "Wyświetlić lub zmienić ustawienia dotyczące kontaktów zakaźnych",
+    "exposureAlert": "Alarm ekspozycji",
+    "exposureAlertHint": "Wyświetlanie i zmienianie ustawień alarmu ekspozji",
+    "checkIn": "COVID zameldowanie",
+    "checkinHint": "Zobacz lub zmieniają ustawienia COVID Przyjazd",
+    "privacyPolicy": "Informacja o ochronie danych Wskazówka",
+    "privacyPolicyHint": "Zobacz ochronie danych informacyjne",
+    "termsAndConditions": "Warunki użytkowania",
+    "termsAndConditionsHint": "Sprawdź arunki użytkowania",
+    "metrics": "Wskaźniki aplikacji",
+    "metricsHint": "Wyświetlanie i zmienianie ustawień wskaźników aplikacji",
+    "leave": "Wyjdź",
+    "leaveHint": "Opuszczenie aplikacji",
+    "dataProtection": "Informacja o ochronie danych osobowych",
+    "dataProtectionHint": "Sprawdź cały dokument Oceny ochrony danych osobowych",
+    "privacyNotice": "Prywatność aplikacji i jak wykorzystujemy Twoje dane",
+    "privacyNoticeHint": "Sprawdź informację o ochronie danych osobowych",
+    "language": "Język",
+    "languageHint": "Wybieranie jezyka aplikacji",
+    "followUpCall": "kontakt zwrotny Zespołu śledzenia kontaktu",
+    "followUpCallHint": "Podaj swój numer telefony, aby poprosić o oddzwonienie",
+    "howTheAppWorks": "Jak działa aplikacja",
+    "howTheAppWorksHint": "Szczegółowe informacje o tym jak działa aplikacja"
+  },
+  "leave": {
+    "title": "Opuszczenie aplikacji",
+    "info": "Dziękujemy za pomoc nam walczyć COVID-19. Przykro nam że odchodzisz. Kiedy stukniesz przycisk „Chcę opuścić aplikację”, wszystkie dane zapisane przez nią na Twoim urządzeniu zostaną usunięte, w tym Twój numer telefonu (jeżeli został udostępniony). Nieidentyfikowalne tokeny autoryzacji zapisane na serwerach aplikacji także zostaną usunięte.\n\nRandom identyfikatory tworzone lub zebrane przez służby Powiadamiania ekspozycji nie mogą być usunięte przez aplikację Jersey COVID Alert. Jeśli chcesz usunąć te Losowe identyfikatory można to zrobić za pośrednictwem ustawień urządzenia.",
+    "button": "Chcę opuścić aplikację",
+    "confirmTitle": "Opuszczenie aplikacji",
+    "confirmText": "Jesteś pewny, że chcesz opuścić aplikajcę?",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdzić",
+    "error": "Wystąpił błąd podczas usuwania danych. Spróbuj ponownie lub skontaktuj się z nami."
+  },
+  "checkInSettings": {
+    "title": "COVID zameldowanie",
+    "checkInFirst": "Twoje ustawienia będą widoczne tutaj, jak tylko zrobić swoje pierwsze zameldowanie.",
+    "intro": "Ci mają wspólne następujące informacje o nas.",
+    "gotoCheckIn": "Idź do COVID Check-In"
+  },
+  "appStats": {
+    "title": "Dzisiejsza walka",
+    "totalCheckins": "Razem Check-Ins dzisiaj",
+    "noSymptoms": "Czuć się dobrze",
+    "someSymptoms": "Niektóre objawy",
+    "nationalPicture": "Obraz narodowy",
+    "breakdown": "Tap do podziału powiatu",
+    "usersSinceLaunch": "Użytkownicy aplikacji od momentu uruchomienia"
+  },
+  "exposureAlert": {
+    "title": "Alarm ekspozycji",
+    "active": {
+      "title": "Aktywne alarmy ekspozycji",
+      "subtitle": "Włącz funkcję Bluetooth"
+    },
+    "noSupport": {
+      "title": "Alarm ekspozycji niedostępny",
+      "message": "Niestety, to urządzenie nie obsługuje ekspozycji powiadomienie. Nadal można korzystać z aplikacji dla COVID check-in i aktualizacje."
+    },
+    "canSupport": {
+      "title": "Alarm ekspozycji niedostępny",
+      "message": {
+        "ios": "Aby włączyć alarm ekspozycji należy uaktualnić do najnowszej wersji iOS (13,5 i powyżej).",
+        "android": "Aby włączyć alarm ekspozycji należy uaktualnić do najnowszej wersji usług Google Play."
+      },
+      "button": "Sprawdzać uaktualnienia"
+    },
+    "notEnabled": {
+      "title": "Alarm ekspozycji niedostepne",
+      "message": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji",
+      "button": "Włączyć"
+    },
+    "notActive": {
+      "title": "Alarm ekspozycji nieaktywny",
+      "message00": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji",
+      "message10": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach",
+      "message01": "Musisz włączyć funkcję Bluetooth w ustawieniach",
+      "message11": "Musisz włączyć usługę powiadamiania ekspozycji i funkcję Bluetooth w ustawieniach",
+      "button": "Przejdź do ustawień urządzenia",
+      "android": {
+        "button": "Włączyć",
+        "message": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji"
+      }
+    },
+    "registrationsTitle": "Rejestracja aplikacji",
+    "registrationsYesterday": "Wszystkie zarejestrowane aplikacje",
+    "registrationsHint": "Wykres przedstawiający liczbę rejestracji w aplikacji z biegiem czasu",
+    "shareAppText": "Pomóż chronić więcej osób, zachęcając współpracowników, znajomych i rodzinę do używania aplikacji.",
+    "uploadCard": {
+      "title": "Czy rozpoznano u Ciebie COVID-19?",
+      "text": "Jak wysłać swoje losowe kody, aby anonimowo alarmować innych użytkowników aplikacji w pobliżu."
+    },
+    "closeContactCard": {
+      "title": "Informacja bliskiego kontaktu",
+      "text": "Co robić, jeśli otrzymało się alarm ekspozycji lub jeśli zostało Ci przekazane, że wystąpił bliski kontakt z osobą zarażoną COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Stan",
+        "active": "Usługa jest w tej chwili aktywna",
+        "notActive": "Usługa jest w tej chwili nieaktywna",
+        "intro": "Nie zapisujesz zdarzeń bliskiego kontaktu i nie będą wysyłane do Ciebie powiadomienia, jeśli ktoś zarażony COVID-19 miał z Tobą bliski kontakt.",
+        "gotoSettings": "Ustawienia aktualizacji",
+        "android": {
+          "intro": "Aby zaktualizować zgody, przejdź do ustawień swojego urządzenia.",
+          "gotoSettings": "Włączyć"
+        },
+        "ios": {
+          "intro": "Aby zaktualizować zgody, przejdź do ustawień swojego urządzenia.",
+          "gotoSettings": "Ustawienia aktualizacji"
+        }
+      },
+      "clearData": {
+        "title": "Stare alarmy ekspozycji",
+        "intro": "Stuknij poniższy przycisk, aby na stałe usunąć ostatnie 14 dni Twoich alarmów ekspozycji.",
+        "button": "Usuń wszystkie",
+        "confirmTitle": "Kasowanie zdarzeń bliskiego kontaktu",
+        "confirmText": "Czy na pewno chcesz wyczyścić wszystkie powiadomienia alarmów ekspozycji?",
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź",
+        "error": "Wystąpił błąd podczas usuwania starych alarmow ekspozycji. Proszę spróbuj ponownie."
+      }
+    },
+    "pause": {
+      "text": "Wstrzymaj alarm ekspozycji",
+      "paused": "Wstrzymane - przypomnienie ustawione na {{time}}",
+      "reactivate": {
+        "label": "Reaktywowanie alarmy ekspozycji"
+      }
+    },
+    "howItWorksCard": {
+      "text": "Jak działa aplikacja"
+    }
+  },
+  "contactTracing": {
+    "title": "Alarm ekspozycji",
+    "active": {
+      "title": "Alarm ekspozycji aktywny /n/nProszę włączyć funkcję Bluetooth"
+    },
+    "noSupport": {
+      "title": "Alarm ekspozycji niedostępny",
+      "message": "Niestety, to urządzenie nie obsługuje usług powiadomienia o ekspozycji. Nadal można korzystać z aplikacji dla COVID check-in i aktualizacje."
+    },
+    "canSupport": {
+      "title": "Alarm ekspozycji niedostępny",
+      "message": {
+        "ios": "Aby włączyć alarm ekspozycji należy uaktualnić do najnowszej wersji iOS (13,5 i powyżej).",
+        "android": "Aby włączyć alarm ekspozycji należy uaktualnić do najnowszej wersji usług Google Play."
+      },
+      "button": "Sprawdzać uaktualnienia"
+    },
+    "notEnabled": {
+      "title": "Alarm ekspozycji nieaktywny",
+      "message": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji",
+      "button": "Włączyć"
+    },
+    "notActive": {
+      "title": "Alarm ekspozycji nieaktywny",
+      "message00": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji",
+      "message10": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji",
+      "message01": "Musisz włączyć funkcję Bluetooth w ustawieniach",
+      "message11": "Musisz włączyć usługę powiadamiania ekspozycji i funkcję Bluetooth w ustawieniach",
+      "button": "Przejdź do ustawień urządzenia",
+      "android": {
+        "button": "Włączyć",
+        "message": "Musisz włączyć usługę powiadamiania ekspozycji w ustawieniach aby aktywować alarm ekspozycji"
+      }
+    },
+    "registrationsTitle": "Wszystkie rejestracje aplikacji",
+    "registrationsYesterday": "Wszystkie rejestracje aplikacji",
+    "registrationsHint": "Wykres przedstawiający liczbę rejestracji aplikacji z biegiem czasu",
+    "shareAppText": "Pomóż chronić więcej osób, zachęcając współpracowników, znajomych i rodzinę do używania aplikacji.",
+    "uploadCard": {
+      "title": "Wyślij alarm",
+      "text": "Do użytku tylko wtedy, gdy zespół śledzenia kontaktu skontaktuję sie z Tobą"
+    },
+    "closeContactCard": {
+      "title": "Informacja bliskiego kontaktu",
+      "text": "Co robić, jeśli otrzymało się alarm ekspozycji lub jeśli zostało Ci przekazane, że wystąpił bliski kontakt z osobą zarażoną COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Stan",
+        "active": "Usługa jest obecnie aktywne",
+        "notActive": "Usługa jest nieaktywna",
+        "intro": "Aby zaktualizować zgody, przejdź do ustawień swojego urządzenia.",
+        "gotoSettings": "Ustawienia aktualizacji",
+        "android": {
+          "intro": "Usługa powiadamiania o ekspozycji nie jest aktualnie włączona, kliknij przycisk Włącz, aby rozpocząć.",
+          "gotoSettings": "Włączyć"
+        }
+      },
+      "clearData": {
+        "title": "Bliskie kontakty",
+        "intro": "Stuknij poniższy przycisk, aby na stałe usunąć stare alarmy ekspozycji.",
+        "button": "Usuń wszystkie",
+        "confirmTitle": "Stare alarmy ekspozycji",
+        "confirmText": "Czy na pewno chcesz wyczyścić wszystkie stare powiadomienia alarmów ekspozycji?",
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź",
+        "error": "Wystąpił błąd podczas usuwania alarmów ekspozycji. Proszę spróbuj ponownie."
+      }
+    }
+  },
+  "confirmedChart": {
+    "title": "Potwierdzone przypadki codziennie",
+    "label": "Przypadki W dzień wykres",
+    "hint": "Wykres przedstawiający codzienne potwierdzonych przypadków w czasie",
+    "yesterday": "potwierdzonych przypadków wczoraj",
+    "ranges": {
+      "default": "Ostatnie 2 tygodnie",
+      "months": "Ostatnie 2 miesiące",
+      "all": "Wszystkie"
+    }
+  },
+  "transmissionChart": {
+    "title": "Jak COVID-19 sie rozprzestrzenia",
+    "community": "Transmisja wspólnotowa",
+    "contact": "Bliski kontakt",
+    "travel": "Podróże zagraniczne"
+  },
+  "statsSource": {
+    "monitor": "COVID-19 Monitor Nadzoru Zdrowia",
+    "communityTransmissions": "Transmisja wspólnotowa, brak znanego bliskiego kontaktu",
+    "lastUpdatedStats": "Ostatnia aktualizacja potwierdzonych przypadków",
+    "lastUpdatedProfile": "Ostatnia aktualizacja profilu przypadków",
+    "summaryLink": "Więcej statystyk COVID-19 jest dostępnych na [gov.je](https://www.gov.je/Health/Coronavirus/Pages/CoronavirusCases.aspx)"
+  },
+  "symptomsHistory": {
+    "title": "Historia objaw",
+    "symptom": "Objaw",
+    "symptoms": "objawy",
+    "completed": "Można ponownie sprawdzić objawy jutro"
+  },
+  "casesByCounty": {
+    "title": "Przypadki według County"
+  },
+  "yourData": {
+    "title": "Twoje dane",
+    "info": "Aplikacja wyświetli powiadomienie w przypadku spotkania osoby zarażonej COVID-19. Oprócz tego Zespół śledzenia kontaktu Jersey może zatelefonować do Ciebie, jeśli osoba z pozytywnym wynikiem testu słownie zidentyfikowała Cię jako osobę, z którą miała kontakt.",
+    "viewInSettings": "W każdej chwili można wyświetlić ten dokument w ustawieniach. Stuknij „Kontynuuj”, aby przejść dalej.",
+    "continue": "Kontyntynuuj",
+    "list": {
+      "noId": "Aplikacja nie udostępnia rządowi Jersey żadnych danych osobowych, które mogłyby pozwolić na zidentyfikowanie Cię bez Twojej zgody.",
+      "noLocation": "COVID Alert nie używa GPS ani żadnej innej technologii, aby śledzić Twoją lokalizację.",
+      "noPerson": "Aplikacja nigdy nie zbiera danych zawierających dane osobowe osób, z którymi miało się kontakt.",
+      "padlock": "Dane zapisane na Twoim telefonie oraz połączenia z serwerem COVID Alert są szyfrowane.",
+      "shield": "Żadne informacje na temat Twojej tożsamości nie są udostępniane innym użytkownikom aplikacji.",
+      "trashCan": "Twoje dane będą wykorzystywane tylko w związku z reagowaniem na COVID-19 w Jersey, jak wyszczególniono w informacjach o ochronie danych osobowych. Poniżej można poznać więcej szczegółów na ten temat."
+    }
+  },
+  "sorry": {
+    "title": "Przykro to słyszeć",
+    "info": "Niestety nie możesz korzystać z aplikacji dalej. Możesz dołączyć w dowolnym momencie. Wystarczy dotknąć przycisk Wstecz.",
+    "back": "Wstecz"
+  },
+  "ageRequirement": {
+    "notice": "Aby używać tej aplikacji, musisz mieć 16 lat lub więcej",
+    "over": "Mam 16 lat lub więcej",
+    "under": "Mam poniżej 16 lat"
+  },
+  "underAge": {
+    "title": "Poniżej 16 roku życia",
+    "notice": "Dziękujemy za zainteresowanie, ale niestety jesteś za młody, aby używać tej aplikacji.\n\nUważaj na siebie"
+  },
+  "followUpCall": {
+    "title": "Kontakt zwrotny Zespołu śledzenia kontaktu",
+    "shortTitle": "Oddzwonić",
+    "intro": "Jeżeli zaistniał bliski kontakt z osobą zarażoną COVID-19, aplikacja wyśle alarm ekspozycji. Możesz także zawnioskować o telefon Zespołu śledzenia kontaktu, zachowując swój numer telefonu w aplikacji. Zespół śledzenia kontaktu Jersey służy wsparciem i poradą, a także może skierować Cię na test.",
+    "note": "Aplikacja udostępni Twój numer telefonu Zespołowi śledzenia kontaktu Jersey, tylko kiedy otrzymasz alarm ekspozycji.\n\nMożesz wprowadzić numer telefonu komórkowego poniżej lub dodać go później w ustawieniach.",
+    "noteAlt": "Aplikacja wyśle alarm ekspozycji, jeżeli wykryty został bliski kontakt z osobą zarażoną COVID-19.\n\nZespół śledzenia kontaktu Jersey zostanie o tym fakcie powiadomiony i skontaktuje się z Tobą tak szybko, jak to możliwe, aby przekazać informacje i porady, co robić dalej.\n\nMożesz wprowadzić numer telefonu komórkowego poniżej lub dodać go w ustawieniach później. Twój nr telefonu zostanie udostępniony Zespołowi śledzenia kontaktu Jersey tylko w przypadku otrzymania alarmu ekspozycji. Aby wygenerować żądanie kontaktu zwrotnego od Zespołu, musisz podać swój numer kontaktowy, zanim otrzymasz alarm ekspozycji.\n\nJeśli numer telefonu nie został wprowadzony, a potrzebujesz porady zdrowotnej, zadzwoń na infolinię dot. koronawirusa pod numerem +44 1534 44 55 66.",
+    "noteSettings": "Jeśli chcesz postaramy się zadzwonić do Ciebie aby udzielić dalszej pomocy po otrzymaniu powiadomienia o ekspozycji.\n\nTwój numer telefonu zostanie udostępniony zespołowi śledzenia kontaktów tylko wtedy gdy dostaniesz powiadomienie o ekspozycji.",
+    "optIn": "Tak, chcę wyrazić zgodę",
+    "noThanks": "Nie, dziękuję"
+  },
+  "closeContactNotification": {
+    "title": "Alarm ekspozycji!",
+    "description": "Proszę sprawdzić aplikację Jersey COVID Alert teraz."
+  },
+  "closeContactWarn": {
+    "title": "Alarm ekspozycji!",
+    "notice": "Aplikacja Jersey COVID Alert wykryła bliski kontakt z osobą zarażoną COVID-19."
+  },
+  "closeContact": {
+    "title": "Alarm ekspozycji!",
+    "infoTitle": "Szczegóły Alarmu ekspozycji",
+    "intro": "Jeśli otrzymasz alert o ekspozycji, oznacza to, że byłeś w pobliżu innego użytkownika aplikacji, u którego niedawno zdiagnozowano COVID-19 wystarczająco długo i wystarczająco blisko, aby narazić Cię na ryzyko.\n\nZalecamy przestrzeganie wytycznych rządu Jersey w zakresie zdrowia publicznego w celu ochrony innych, które można obejrzeć w całości na",
+    "alertintro": "Aplikacja Jersey COVID Alert wykryła bliski kontakt z osobą zarażoną COVID-19.",
+    "callBack": "Oddzwonić",
+    "callBackQueue": "HSE kontakt zespół śledzenia zadzwoni jak najszybciej.",
+    "todo": {
+      "title": "Są pewne rzeczy, które należy zrobić, aby chronić innych.",
+      "selfIsolationDetails": "Aby uzyskać szczegółowe informacje dotyczące sposobu samodzielnego izolat idź do [https://www2.hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact](https://www2. hse.ie/conditions/coronavirus/self-isolation-and-limited-social-interaction.html#close-contact)",
+      "list": "1. Nie należy chodzić do pracy.\n\n2. Nie należy podróżować za wyjątkiem nagłych wypadków.\n\n3. Nie należy przyjmować gości.\n\n4. Nie należy chodzić do sklepów czy aptek. Zaleca się szukanie wsparcia rodziny i znajomych, zamawianie produktów online lub odwiedzenie stron internetowych Connect Me, aby otrzymać pomoc. https://www.gov.je/health/coronavirus/volunteering/Pages/index.aspx.\n\n5. Zaleca się trzymanie się z dala od osób starszych, osób z przewlekłymi chorobami i kobiet w ciąży.\n\n6. Wszystkie osoby mieszkające z Tobą powinny także stosować się do tych zaleceń.",
+      "intro": "Jeśli miałeś kontakt z osobą zarażoną COVID-19, możesz przekazać wirusa innym osobom w pobliżu.\n\nAby chronić innych, zaleca się pozostanie w domu i izolację od innych osób w tak dużym stopniu, jak to tylko możliwe."
+    },
+    "symptoms": {
+      "title": "Zadzwoń do swojego lekarza, jeśli wystąpią objawy.",
+      "intro": "Dowiedzieć się więcej o tym, co trzeba zrobić na hse.ie.",
+      "callHSE": "Idź do HSE.ie"
+    },
+    "howToSelfIsolateLinkTitle": "gov.je - porada na temat izolacji",
+    "howToSelfIsolateLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/HowToSelfIsolate.aspx",
+    "guidanceAndAdviceLinkTitle": "Przejdź do wytycznych i porad",
+    "guidanceAndAdviceLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/CoronavirusInformation.aspx",
+    "supportIntro": "Zaleca się szukanie wsparcia rodziny i znajomych, zamawianie produktów online lub odwiedzenie stron internetowych Connect Me, aby otrzymać pomoc.",
+    "supportIntro1": "Jeżeli zaczną u Ciebie występować objawy lub w jakikolwiek sposób odczuwasz niepokój, <zadzwoń na infolinię dot. koronawirusa> pod numerem +44 1534 44 55 66.",
+    "supportIntro1NoCallback": "Jeżeli zaczną u Ciebie występować objawy lub w jakikolwiek sposób odczuwasz niepokój, <zadzwoń na infolinię dot. koronawirusa> pod numerem +44 1534 44 55 66.",
+    "supportIntro2": "Szczegółowe informacje znajdują się na stronie internetowej gov.je Porady dot. koronawirusa (Coronavirus Advice).",
+    "supportCallBackLinkLabel": "Infolinia dot. koronawirusapod numerem +44 1534 44 55 66.",
+    "supportCallNumber": "+44 1534 44 55 66",
+    "callBackHeader": "Infolinia dot. Koronawirusa",
+    "callBackIntro": "Jeżeli wprowadzony został w ustawieniach numer kontaktowy, to Zespół śledzenia kontaktu Jersey skontaktuje się z Tobą, aby zorganizować test na obecność wirusa. Jeżeli numer kontaktowy nie został udostępniony, możesz zawnioskować o test lub zapytać o poradę, dzwoniąc na infolinię dot. koronawirusa",
+    "callBackNumber": "+44 1534 44 55 66",
+    "alertWithCallback": {
+      "text": "Jeżeli zaczną u Ciebie występować objawy lub w jakikolwiek sposób odczuwasz niepokój",
+      "link": "zadzwoń na infolinię dot. koronawirusa pod numerem +44 1534 44 55 66."
+    },
+    "alertWithoutCallback": {
+      "header": "Skontaktuj się z zespołem ds. Śledzenia",
+      "text": "Może być konieczne wykonanie testu. Skontaktuj się z zespołem ds. Poszukiwania kontaktów w celu uzyskania dalszych porad dotyczących Twojej sytuacji.",
+      "number": "+44 1534 44 99 44"
+    }
+  },
+  "uploadKeys": {
+    "title": "Wyślij swoje losowe kody",
+    "code": {
+      "intro": "Członek Zespołu śledzenia kontaktu Jersey zapyta o udostępnienie losowych kodów generowanych przez Twój telefon w ciągu ostatnich 14 dni.\n\nJeżeli zgodzisz się na udostępnienie swoich losowych kodów, zostanie wysłany przez SMS unikalny, 6 cyfrowy kod, który pozwoli na wysłanie Twoich kodów.\n\nWprowadź swój 6 cyfrowy kod",
+      "expiredError": "Kod wygasł. Skontaktuj się z zespołem śledzenia kontaktów, aby poprosic o nowy kod",
+      "invalidError": "Nieprawidłowy kod. Proszę spróbuj ponownie",
+      "error": "Wystąpił błąd podczas sprawdzania poprawności kodu. Proszę spróbuj ponownie."
+    },
+    "upload": {
+      "intro": "Zezwól aplikacji na udostępnienie anonimowych kodów losowych, aby inni użytkownicy aplikacji, którzy byli w pobliżu przed diagnozą, mogli zostać powiadomieni, że mogą byc zagrożeni.",
+      "button": "Wyślij swoje losowe kody"
+    },
+    "permissionError": "Nie przesłalismy woich losowych kodów, ponieważ nie udzieliłeś zgody.",
+    "uploadError": "Wystąpił błąd podczas próby przesłania",
+    "uploadSuccess": {
+      "toast": "Wysyłanie zakończone",
+      "thanks": "Dziękujemy. Otrzymaliśmy listę Twoich losowych kodów i od teraz będziemy anonimowo alarmować inne osoby w Twoim bliskim otoczeniu. Pomoże to nam spowolnić rozprzestrzenianie się COVID-19 i chronić innych w naszym społeczeństwie.\n\nProsimy o dalsze przestrzeganie wytycznych rządu Jersey dot. zdrowia publicznego dla ludzi zarażonych koronawirusem. Twoje działania pomogą ratować życie ludzkie.",
+      "updates": "Powrót do aktualizacji",
+      "howToIsolate": "Jak się izolować",
+      "ifInDoubt": "Jeżeli masz wątpliwości dotyczące Twojej osobistej sytuacji, zalecamy kontakt z lekarzem"
+    }
+  },
+  "sex": {
+    "label": "Twoja płeć (opcjonalnie)",
+    "female": "Płeć żeńska",
+    "male": "Męski"
+  },
+  "ageRange": {
+    "label": "Twój przedział wiekowy (opcjonalnie)",
+    "placeholder": "Wybierz przedział wiekowy"
+  },
+  "phoneNumber": {
+    "code": {
+      "label": "Twój kod kraju",
+      "placeholder": "Kraj",
+      "searchPlaceholder": "Szukaj kraj",
+      "noResults": "Brak wyników wyszukiwania dla tego wyszukiwania.\n\nSpróbuj z czegoś innego.",
+      "error": {
+        "required": "wymagany jest kod kraju."
+      }
+    },
+    "number": {
+      "label": "Twój numer telefonu komórkowego (opcjonalne)",
+      "placeholder": "Twój numer",
+      "error": {
+        "invalid": "Twój numer jest nieprawidłowy. Proszę podać pełny numer telefonu.",
+        "short": "Twój numer jest niekompletny. Proszę podać pełny numer telefonu.",
+        "required": "Twój numer jest wymagany"
+      },
+      "remove": {
+        "button": "Usuń numer",
+        "title": "Czy napewno chcesz usunac swój numer telefonu?",
+        "alert": "Uniwmożliwi to zespołowi śledzenia kontaktów dzwonienia do ćiebie, jeśli otrzymasz alarm ekspozycji.",
+        "yes": "Tak",
+        "no": "Nie"
+      }
+    }
+  },
+  "county": {
+    "label": "Twój okręg (opcjonalnie)",
+    "placeholder": "Wybierz powiat",
+    "searchPlaceholder": "Szukaj",
+    "noResults": "Brak wyników wyszukiwania dla tego wyszukiwania. \nSpróbuj z czegoś innego."
+  },
+  "locality": {
+    "label": "Swoją lokalizację (opcjonalnie)",
+    "placeholder": "Wybierz lokalizację",
+    "searchPlaceholder": "Szukaj",
+    "noResults": "Brak wyników wyszukiwania dla tego wyszukiwania. \nSpróbuj z czegoś innego."
+  },
+  "appUsage": {
+    "title": "Wskaźniki aplikacji",
+    "info": "Rządowi Jersey zależy, aby użytkownicy w pełni rozumieli działanie i wykorzystanie aplikacji, żeby ją ulepszać.",
+    "settingsInfo": "W każdej chwili można zmienić te zgody w ustawieniach",
+    "yesButton": "Tak, zgadzam się",
+    "noThanks": "Nie zgadzam sie"
+  },
+  "metrics": {
+    "title": "Wskaźniki aplikacji",
+    "info": "Rządowi Jersey zależy, aby użytkownicy w pełni rozumieli działanie i wykorzystanie aplikacji, żeby ją ulepszać.",
+    "share": "Udostępnianie statystyk używania aplikacji"
+  },
+  "tracingAvailable": {
+    "title": "Alarmy ekspozycji sa teraz dostępne dla Ciebie",
+    "text": "Ustaw teraz"
+  },
+  "codeInput": {
+    "accessibilityLabel": "Cyfrowy kod {{number}}",
+    "accessibilityHint": "Wpisz {{count}} cyfrowy kod"
+  },
+  "howTheAppWorks": {
+    "title": "Jak działa aplikacja",
+    "close": "Wstecz",
+    "text": {
+      "bluetooth": "Aplikacja wykorzystuje Bluetooth, aby wymieniać się losowymi kodami z innymi aplikacjami COVID Alert w pobliżu – nawet jeśli jest wyłączona. Losowe kody regularnie się zmieniają i nie można ich użyć do określenia Twojej lokalizacji lub tożsamości.",
+      "codes": "Kilka razy dziennie aplikacja sprawdza swoje losowe kody z publiczną listą kodów osób zarażonych COVID-19. Tylko osoby, które zostały przebadane autoryzowanym testem na obecność wirusa, mogą udostępniać swoje losowe kody",
+      "tracing": "Jeżeli przebadano Cię pod kątem COVID-19 i Twój wynik był pozytywny, Zespół śledzenia kontaktu przeprowadzi Cię przez proces przesłania swoich losowych kodów, jeśli zdecydujesz się je udostępnić.",
+      "exposure": "Jeżeli na Twoim telefonie dojdzie do wymiany losowego kodu z kodem kogoś zarażonego COVID-19, a kontakt był odpowiednio bliski oraz długi, aby uznać go za ryzykowny, aplikacja wyświetli alarm ekspozycji.",
+      "helpline": "Aplikacja jest tylko jedną częścią systemu reagowania na COVID-19 – używanie aplikacji pomoże zatrzymać wirusa, ale jeżeli nie czujesz się dobrze, to nadal należy skontaktować się z lekarzem"
+    },
+    "support": {
+      "link": "https://covidalert.gov.je/support",
+      "text": "Więcej informacji o aplikacji można znaleźć na stronie covidalert.gov.je"
+    }
+  },
+  "privacyNotice": {
+    "title": "Prywatność aplikacji i jak wykorzystujemy Twoje dane",
+    "link": "Poniżej można przeczytać informacje o ochronie danych osobowych",
+    "text": "Nie można załadować Informacji o ochronie danych osobowych"
+  },
+  "language": {
+    "title": "Język",
+    "info": "Wybierz język aplikacji"
+  },
+  "pause": {
+    "title": "Watrzymanie alarmów ekspozycji",
+    "introduction": "Możesz wstrzymać alerty o ekspozycji, jeśli zastosowano dowolne z poniższych punktów:\n\n* Stale nosisz pełne ŚOO \\n* Jesteś odizolowany od innych, ale telefon może nadal odbierać sygnały Bluetooth od osób w pobliżu, na przykład sam w szklanym biurze lub pokoju z cienkimi ścianami \\n* Jeśli jesteś oddzielony od telefonu przez jakiś czas.\n\nMyśl uważnie o tym, kiedy ponownie aktywować alarmy o ekspozycji i rozważ ustawienie przypomnienia. W przeciwnym razie należy ponownie aktywować alarmy o ekspozycji w ustawieniach aplikacji.",
+    "dropdown": {
+      "label": "Ustaw przypomnienia, aby ponownie aktywować alarmy o ekspozycji",
+      "placeholder": "Ustawienie godziny"
+    },
+    "alternativeTime": "lub w:",
+    "button": {
+      "label": "Watrzymanie alarmów ekspozycji"
+    },
+    "modalHeader": "Ustawienie godziny przypomnienia",
+    "intervals": {
+      "4": {
+        "label": "+4 hrs"
+      },
+      "8": {
+        "label": "+8 hrs"
+      },
+      "12": {
+        "label": "+12 hrs"
+      }
+    }
+  },
+  "reminder": {
+    "title": "PRZYPOMNIENIE: ponownie aktywuj alarmy ekspozycji",
+    "message": "Nadszedł czas, aby ponownie aktywowaC alarm ekspozycji"
+  }
+}

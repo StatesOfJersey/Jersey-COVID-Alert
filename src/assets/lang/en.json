@@ -1,0 +1,544 @@
+{
+  "common": {
+    "name": "Jersey COVID Alert",
+    "url": "https://covidalert.gov.je/",
+    "message": "Join Jersey COVID Alert to fight against COVID-19",
+    "networkError": "Connection issue. Please check your internet connection and try again.",
+    "missingDataAction": "Refresh page",
+    "missingError": "Loading issue. We were not able to load some of the data correctly.",
+    "preferNotToSay": "Prefer not to say",
+    "confirmChanges": "Confirm changes",
+    "changesUpdated": "Changes updated",
+    "dismiss": "Dismiss"
+  },
+  "viewNames": {
+    "age": "Confirm your age",
+    "getStarted": "Get Started",
+    "casesByCounty": "Cases By County",
+    "updates": "Latest updates",
+    "symptomchecker": "COVID Checker",
+    "settings": "Settings",
+    "uploadKeys": "Upload Your Random Keys",
+    "closeContact": "Close Contact",
+    "settingsContactTracing": "Contact Tracing Settings",
+    "settingsCheckin": "COVID Check In Settings",
+    "settingsExposureAlert": "Exposure alert Settings",
+    "dataPolicy": "Data Protection Policy",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Notice",
+    "metrics": "Settings for app metrics",
+    "leave": "Leave Jersey COVID Alert",
+    "exposureAlert": "Exposure alerts",
+    "language": "Language",
+    "settingsFollowUpCall": "Call Back",
+    "howTheAppWorks": "How the app works",
+    "pause": "Pause exposure alerts"
+  },
+  "navbar": {
+    "settings": "Settings",
+    "settingsHint": "View or amend application settings",
+    "back": "Back",
+    "backHint": "Navigate back to previous screen"
+  },
+  "tabBar": {
+    "updates": "Latest updates",
+    "exposureAlert": "Exposure alerts",
+    "shareApp": "Share app",
+    "settings": "Settings",
+    "shareError": "There was an error sharing. Please try again or contact us."
+  },
+  "onboarding": {
+    "intro": {
+      "title": "An extra tool to fight the pandemic",
+      "info": "# Exposure alerts\n\nReceive a notification if you have been exposed to someone recently diagnosed with COVID-19, while protecting your privacy.\n\n# Updates\n\nKeep up-to-date on the latest statistics about COVID-19 in Jersey.\n\n# Share the app\n\nHelp protect more people by encouraging colleagues, friends and family to use the app.",
+      "action": "Get started",
+      "howItWorks": "Learn how the app works"
+    },
+    "information": {
+      "title": "Enable exposure alert notifications",
+      "text": "The app needs permission to send you an exposure alert notification if it detects that you have been near another app user who has recently been diagnosed with COVID-19 for close enough and long enough to put you at risk.\n\nThe app does not know your physical location, your identity or the identities of anyone you are with.\n\nThis app supports the work of the Jersey Contact Tracing Team, who may also contact you if you are verbally identified as a direct contact by someone with COVID-19.",
+      "text1": "To enable exposure alerts for this app you need to turn on:",
+      "text2": "And to get an alert you need to turn on:",
+      "action": "Continue",
+      "later": "Maybe later",
+      "skip": "Skip for now",
+      "bluetooth": "Exposure Notification Services",
+      "notifications": "Notifications",
+      "quote": "If you change your mind, you can change your permissions in Settings at any time."
+    },
+    "upgrade": {
+      "ios": {
+        "title": "Apple iOS must be updated",
+        "text": "To enable exposure alerts, you need to upgrade to the latest version of Apple iOS.",
+        "action": "Check for upgrades"
+      },
+      "android": {
+        "title": "Google Play Services must be updated",
+        "text": "To enable exposure alerts, you need to upgrade to the latest version of Google Play Services.",
+        "action": "Check for upgrades"
+      }
+    }
+  },
+  "howTheAppWorks": {
+    "title": "How the app works",
+    "close": "Back",
+    "text": {
+      "bluetooth": "The app uses Bluetooth to exchange anonymous codes called Random IDs with other COVID Alert apps nearby – even when the app is closed. The Random IDs change regularly and cannot be used to identify you or your location.",
+      "codes": "Several times a day, the app checks the Random IDs your phone has received from people nearby with a list of Random IDs shared by people who have been recently diagnosed with COVID-19.",
+      "tracing": "If you have a test and the result indicates that you have COVID-19, the Contact Tracing Team will call you and guide you through the process of uploading your Random IDs, if you choose to share them.",
+      "exposure": "If you have the Random IDs from someone with COVID-19 on your phone, and the contact event was close enough and for long enough to put you at risk, the app will show an exposure alert. You can then take action to protect yourself, your family and friends.",
+      "helpline": "The app is just one part of the COVID-19 response – using the app will help to contain the virus, but if you feel unwell you should still contact the Coronavirus Helpline or your GP."
+    },
+    "support": {
+      "link": "https://covidalert.gov.je/support",
+      "text": "More info about the app can be found at covidalert.gov.je"
+    }
+  },
+  "tandcPolicy": {
+    "title": "Terms and Conditions",
+    "sentence": {
+      "prefix": "If you tap Get started, you are accepting",
+      "link": "Terms and Conditions",
+      "suffix": "."
+    },
+    "text": "The Terms and Conditions could not be loaded"
+  },
+  "privacyNotice": {
+    "title": "Privacy Notice",
+    "link": "You can read the Privacy Notice here",
+    "text": "The Privacy Notice could not be loaded"
+  },
+  "stats": {
+    "title": "Latest update",
+    "totalCases": "Total tests",
+    "pendingCases": "Pending test results",
+    "negativeCases": "Total negative tests",
+    "positiveCases": "Total confirmed positive cases",
+    "recoveredCases": "Total confirmed recovered",
+    "activeCasesBreakdown": {
+      "title": "Known active cases breakdown",
+      "symptomatic": "Symptomatic",
+      "asymptomatic": "Asymptomatic",
+      "casesLocation": "Known active cases location",
+      "hospital": "Hospital",
+      "care": "Care Homes",
+      "community": "Community"
+    }
+  },
+  "welcome": {
+    "title": "Hi there 👋",
+    "text": "COVID Check-In allows everyone using the app to check symptoms and get advice. It also helps the HSE to map and track how COVID-19 is affecting Ireland.\n\nThe COVID Check-In does not reveal your identity. You can share your age, sex and locality to help make the information more useful for public health analysis.\n\nThe COVID Check-In also keeps a record on your phone of any symptoms you've had, so you can check back and review at any time.",
+    "action": "Yes, I'd like to use COVID Check-In",
+    "letUsKnow": "Let us know if you have\\nsymptoms today"
+  },
+  "returning": {
+    "title": "Welcome back 👋",
+    "subtitle": "How are you feeling today?",
+    "action1": "I'm good, no symptoms",
+    "action2": "I'm not feeling well today",
+    "completeTitle": "Great to hear 👍",
+    "completeLink": "View your history"
+  },
+  "settings": {
+    "title": "Settings",
+    "contactTracing": "Contact Tracing",
+    "contactTracingHint": "View or amend settings for Contact Tracing",
+    "exposureAlert": "Exposure Alerts",
+    "exposureAlertHint": "View or amend settings for exposure alerts",
+    "dataProtection": "Data Protection Information Notice",
+    "dataProtectionHint": "View the Data Protection Information Notice",
+    "termsAndConditions": "Terms and Conditions",
+    "termsAndConditionsHint": "View the Terms and Conditions",
+    "privacyNotice": "Privacy Notice",
+    "privacyNoticeHint": "View the Privacy Notice",
+    "metrics": "App metrics",
+    "metricsHint": "View or amend settings for app metrics",
+    "leave": "Leave",
+    "leaveHint": "Leave the application",
+    "language": "Language",
+    "languageHint": "Choose the language used in app",
+    "followUpCall": "Contact Tracing Team call back",
+    "followUpCallHint": "Provide your phone number to request a call back",
+    "howTheAppWorks": "How the app works",
+    "howTheAppWorksHint": "Details on how the app works."
+  },
+  "leave": {
+    "title": "Leave",
+    "info": "Thank you for helping us to fight COVID-19. We’re sorry to see you go.\n\nWhen you tap “I want to leave” all data stored by the app on your device will be removed, this includes your mobile number (if shared). Security tokens used to communicate between your app and the app servers will also be deleted.\n\nRandom IDs created or collected by the Exposure Notification Services cannot be removed by the app – if you wish to remove these Random IDs you can do so via your device Settings.",
+    "button": "I want to leave",
+    "confirmTitle": "Leave",
+    "confirmText": "Are you sure you want to leave?",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "error": "There was an error clearing your data. Please try again or contact us."
+  },
+  "checkInSettings": {
+    "title": "COVID Check-In",
+    "checkInFirst": "Your settings will be visible here as soon as you do your first Check-In.",
+    "intro": "You have shared the following information with us.",
+    "gotoCheckIn": "Go to COVID Check-In"
+  },
+  "appStats": {
+    "usersSinceLaunch": "App users since launch"
+  },
+  "exposureAlert": {
+    "title": "Exposure alerts",
+    "active": {
+      "title": "Exposure alerts active",
+      "subtitle": "Please keep Bluetooth turned on"
+    },
+    "noSupport": {
+      "title": "Exposure alerts not available",
+      "message": "Unfortunately, this device does not support Exposure Notification Services and can't alert you if you have been near someone who has COVID-19."
+    },
+    "canSupport": {
+      "title": "Exposure alerts not available",
+      "message": {
+        "ios": "To enable exposure alerts you must upgrade to the latest iOS version 13.5 or above. These versions allow Exposure Notification Services.",
+        "android": "To enable exposure alerts you must upgrade to the latest version of Google Play Services. This version allows Exposure Notification Services."
+      },
+      "button": "Check for upgrades"
+    },
+    "pause": {
+      "text": "Pause exposure alerts",
+      "paused": "Paused - reminder set for {{time}}",
+      "reactivate": {
+        "label": "Reactivate exposure alerts"
+      }
+    },
+    "notEnabled": {
+      "title": "Exposure alerts not available",
+      "message": "You need to enable the Exposure Notification Service to activate exposure alerts.",
+      "button": "Enable"
+    },
+    "notActive": {
+      "title": "Exposure Alerts not active",
+      "message00": "You need to enable the Exposure Notification Service to activate exposure alerts.",
+      "message10": "You need to enable the Exposure Notification Service in your Settings.",
+      "message01": "You need to enable Bluetooth in your Settings.",
+      "message11": "You need to enable the Exposure Notification Service and Bluetooth in your Settings.",
+      "button": "Go to device settings",
+      "android": {
+        "button": "Enable",
+        "message": "You need to enable the Exposure Notification Service to activate exposure alerts."
+      }
+    },
+    "registrationsTitle": "App registrations",
+    "registrationsYesterday": "Total app registrations",
+    "registrationsHint": "Graph displaying how many registrations there has been in the app over time",
+    "shareAppText": "The more people who use this app the more effective it will become. Share the app to help us reach our goal.",
+    "uploadCard": {
+      "title": "Diagnosed with COVID-19?",
+      "text": "How to anonymously let people know they've been exposed."
+    },
+    "closeContactCard": {
+      "title": "Exposure information",
+      "text": "What to do if you receive an exposure alert or are told you are a direct contact of someone with COVID-19."
+    },
+    "howItWorksCard": {
+      "text": "How the app works"
+    },
+    "settings": {
+      "status": {
+        "title": "Status",
+        "active": "Service is currently active",
+        "notActive": "Service is currently inactive",
+        "intro": "You are not recording close contact events and will not be notified if someone you have recently been near to is diagnosed with COVID-19.",
+        "ios": {
+          "intro": "To update your permission settings, go to your device's app settings.",
+          "gotoSettings": "Update settings"
+        },
+        "android": {
+          "intro": "To update your permission settings, go to your device's app settings.",
+          "gotoSettings": "Update settings"
+        }
+      },
+      "clearData": {
+        "title": "Old exposure alerts",
+        "intro": "Tap the button below to permanently delete the last 14 days of exposure alert notifications.\n\nExposure alerts older than 14 days are automatically deleted.",
+        "button": "Delete all",
+        "confirmTitle": "Erase old exposure alerts",
+        "confirmText": "Are you sure you want to clear all your exposure alert notifications?",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "error": "There was an error clearing your old exposure alerts. Please try again."
+      }
+    }
+  },
+  "contactTracing": {
+    "title": "Exposure alerts",
+    "active": {
+      "title": "Exposure alerts active/n/nPlease keep Bluetooth turned on"
+    },
+    "noSupport": {
+      "title": "Exposure alerts not available",
+      "message": "Unfortunately, this device does not support Exposure Notification Services. You can still use the app for Updates and to Share with others."
+    },
+    "canSupport": {
+      "title": "Exposure alerts not available",
+      "message": {
+        "ios": "To enable exposure alerts you need to upgrade to the latest iOS version (13.5 and above).",
+        "android": "To enable exposure alerts you need to upgrade to the latest version of Google Play Services."
+      },
+      "button": "Check for upgrade"
+    },
+    "notEnabled": {
+      "title": "Exposure alerts not active",
+      "message": "You need to enable Exposure Notification Services to activate exposure alerts.",
+      "button": "Enable"
+    },
+    "notActive": {
+      "title": "Exposure alerts not active",
+      "message00": "You need to enable Exposure Notification Services to activate exposure alerts.",
+      "message10": "You need to enable Exposure Notification Services to activate exposure alerts.",
+      "message01": "You need to enable Bluetooth in your Settings.",
+      "message11": "You need to enable the Exposure Notification Service and Bluetooth in your Settings.",
+      "button": "Go to device settings",
+      "android": {
+        "button": "Enable",
+        "message": "You need to enable Exposure Notification Services to activate exposure alerts."
+      }
+    },
+    "registrationsTitle": "Total app registrations",
+    "registrationsYesterday": "total app registrations",
+    "registrationsHint": "Graph displaying registrations over time",
+    "shareAppText": "The more people who use this app the better we can protect our community from COVID-19. Share the app to help us reach our goal.",
+    "uploadCard": {
+      "title": "Send alerts",
+      "text": "For use only when the Contact Tracing Team contacts you."
+    },
+    "closeContactCard": {
+      "title": "Exposure information",
+      "text": "What to do if you receive an exposure alert or are told you are a direct contact of someone with COVID-19."
+    },
+    "settings": {
+      "status": {
+        "title": "Status",
+        "active": "Service is currently active",
+        "notActive": "Service is not active",
+        "intro": "To update your permission settings, go to your device's app settings.",
+        "gotoSettings": "Update settings",
+        "android": {
+          "intro": "The Exposure Notifications Service is not currently enabled, click enable to start.",
+          "gotoSettings": "Enable"
+        }
+      },
+      "clearData": {
+        "title": "Direct Contacts",
+        "intro": "Tap the button below to clear all your old exposure alerts.",
+        "button": "Clear all",
+        "confirmTitle": "Old exposure alerts",
+        "confirmText": "Are you sure you want to clear all your old exposure alerts?",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "error": "There was an error clearing your exposure alerts. Please try again."
+      }
+    }
+  },
+  "confirmedChart": {
+    "title": "Daily confirmed new cases",
+    "ranges": {
+      "default": "Last 2 weeks",
+      "months": "Last 2 months",
+      "all": "All"
+    }
+  },
+  "transmissionChart": {
+    "title": "How COVID-19 is spreading",
+    "community": "Community transmission",
+    "contact": "Close contact",
+    "travel": "Travel abroad"
+  },
+  "statsSource": {
+    "monitor": "COVID-19 Health Surveillance Monitor",
+    "communityTransmissions": "Community transmissions, no known close contact",
+    "lastUpdatedStats": "Confirmed cases last update:",
+    "lastUpdatedProfile": "Cases profile last update:",
+    "summaryLink": "More COVID-19 stats are available on [gov.je](https://www.gov.je/Health/Coronavirus/Pages/CoronavirusCases.aspx)"
+  },
+  "casesByCounty": {
+    "title": "Cases by county"
+  },
+  "yourData": {
+    "title": "Your data",
+    "list": {
+      "noId": "The app does not share any personal information with the Government of Jersey without your consent.",
+      "noLocation": "The app does not use GPS or any other technology to record your location or movements.",
+      "noPerson": "The app does not collect any personal information about you or anyone you have been in contact with.",
+      "padlock": "Your data is saved securely on your phone and the connections to the app server are encrypted.",
+      "shield": "No information about your identity is shared with other app users.",
+      "trashCan": "Your data will only be used in relation to the COVID-19 response in Jersey as set out in the Privacy Notice. You can read more about this below."
+    },
+    "info": "The app will alert you if it detects that you have been near to another app user who has recently been diagnosed with COVID-19. The alert only exists on your phone and is not shared with anyone else. Separately, the Jersey Contact Tracing Team may phone you if a recently diagnosed person has verbally identified you as a direct contact.",
+    "viewInSettings": "You can view this notice at any time in Settings. Tap Continue to proceed.",
+    "continue": "Continue"
+  },
+  "sorry": {
+    "title": "Sorry to hear",
+    "info": "Unfortunately you won't be able to use the app any further. You can rejoin at any time. Just tap the back button.",
+    "back": "Back"
+  },
+  "ageRequirement": {
+    "notice": "You must be 16 or older to use this app",
+    "over": "I am 16 or older",
+    "under": "I am under 16"
+  },
+  "underAge": {
+    "title": "Under 16",
+    "notice": "Thank you for your interest but unfortunately you are too young to use this app.\n\nStaySafe."
+  },
+  "followUpCall": {
+    "title": "Contact Tracing call back",
+    "intro": "The app will send you an exposure alert notification if you have been near another app user who has recently been diagnosed with COVID-19. You may also request a call from the Jersey Contact Tracing Team when you get an exposure alert, by storing your mobile number in the app. The Contact Tracing Team will give you advice and support, and may also refer you for a test.",
+    "note": "The app will only share your number with the Jersey Contact Tracing Team if you receive an exposure alert.\n\nYou can enter your mobile phone number below, or add it later in Settings.",
+    "noteAlt": "The app will send you an exposure alert if you have been near another app user who has recently been diagnosed with COVID-19.\n\nYou may request a call from the Jersey Contact Tracing Team when you get an exposure alert, by storing your mobile number in the app.\n\nYou can enter your mobile phone number below, or add it at a later stage. Your phone number will only be shared with the Contact Tracing Team if you get an exposure alert.\n\n You must enter your contact number before you receive an exposure alert to generate the call from Contact Tracing.\n\nIf you have not entered your number but want health advice, please call the Coronavirus Helpline on [+44 153 444 5566](tel:+441534445566)",
+    "noteSettings": "If you want we will try to call you to provide further assistance after you receive an exposure alert.\n\nYour phone number will only be shared with the Contact Tracing Team if you get an exposure alert.",
+    "optIn": "Yes, I want to opt-in",
+    "noThanks": "No thanks"
+  },
+  "closeContactNotification": {
+    "title": "Exposure Alert!",
+    "description": "Please check the Jersey COVID Alert app now."
+  },
+  "closeContactWarn": {
+    "title": "Exposure Alert!",
+    "notice": "The app has detected that you have been near someone who has been diagnosed with COVID-19."
+  },
+  "closeContact": {
+    "title": "Exposure Alert!",
+    "infoTitle": "Exposure information",
+    "howToSelfIsolateLinkTitle": "gov.je - Isolation guidance",
+    "howToSelfIsolateLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/HowToSelfIsolate.aspx",
+    "guidanceAndAdviceLinkTitle": "Go to guidance and advice",
+    "guidanceAndAdviceLinkUrl": "https://www.gov.je/Health/Coronavirus/PublicHealthGuidance/Pages/CoronavirusInformation.aspx",
+    "supportIntro": "Seek support from family and friends or visit the Connect Me pages for help.",
+    "supportIntro1": "If you develop symptoms or are concerned in any way, please call the Coronavirus Helpline.",
+    "supportIntro1NoCallback": "If you develop symptoms or are concerned in any way, please call the Coronavirus Helpline.",
+    "supportIntro2": "To read the full guidelines, visit the Gov.je Coronavirus Advice webpage.",
+    "supportCallBackLinkLabel": "The Coronavirus Helpline on +44 1534 44 55 66",
+    "supportCallNumber": "+44 1534 44 55 66",
+    "intro": "If you receive an exposure alert, it means you have been near another app user who has recently been diagnosed with COVID-19 for long enough and close enough to put you at risk.\n\nWe recommend that you follow Jersey Government public health guidelines to protect others, which can be viewed in full at",
+    "alertintro": "The app has detected that you have been near another app user who has been diagnosed with COVID-19.",
+    "callBackHeader": "Coronavirus Helpline",
+    "callBackIntro": "If you entered your contact number in settings, the Jersey Contact Tracing Team will call you to arrange a test. If you did not provide your number, you may also request a test or seek advice by calling the Coronavirus Helpline.",
+    "callBackNumber": "+44 1534 44 55 66",
+    "alertWithCallback": {
+      "text": "If you develop symptoms or are concerned in any way,",
+      "link": "please call the Coronavirus Helpline on +44 1534 44 55 66."
+    },
+    "alertWithoutCallback": {
+      "header": "Contact Tracing Team",
+      "text": "You may need to be tested. Please call the Contact Tracing Team for further advice specific to your situation.",
+      "number": "+44 1534 44 99 44"
+    },
+    "todo": {
+      "title": "There are some things that you should do to protect others.",
+      "intro": "If you have been exposed to someone with COVID-19 you could pass the virus on to others near you.\n\nTo help protect our community you should limit your interactions with others as much as possible.",
+      "list": "1. Do not go to work.\n\n2. Do not travel, except in emergencies.\n\n3. Do not have visitors.\n\n4. Do not go to shops or the pharmacy. Seek support from family and friends, order online, or visit the [Connect Me pages](https://www.gov.je/health/coronavirus/volunteering/Pages/index.aspx) for help.\n\n5. Take special care to avoid the elderly, pregnant women, and anyone with long-term medical conditions.\n\n6. Anyone you live with should also follow this advice."
+    },
+    "symptoms": {
+      "title": "Phone your GP if you develop symptoms."
+    }
+  },
+  "uploadKeys": {
+    "title": "Alert others who may be at risk",
+    "code": {
+      "intro": "You will only be able to do this with the help of the Contact Tracing Team who will call you if you have a test and the result indicates that you have COVID-19.\n\n1. Enter the 6-digit code you got from Contact Tracing.\n\n2. Agree that the app can warn other people if they were exposed.\n\n3. Allow your phone to share your anonymous Random IDs.\n\nNobody will get any information about you or the time you were near them.\n\nEnter your 6-digit code here:",
+      "expiredError": "Code has expired. Contact the Contact Tracing Team to request a new code.",
+      "invalidError": "Invalid code. Please try again.",
+      "error": "There was an error validating the code. Please try again."
+    },
+    "upload": {
+      "intro": "Please allow the app to share your anonymous Random IDs so that other app users who were near you before your diagnosis can be notified that they may be at risk.",
+      "button": "Send alerts"
+    },
+    "permissionError": "We have not uploaded your Random IDs as you did not grant permission.",
+    "uploadError": "An error occurred trying to upload",
+    "uploadSuccess": {
+      "toast": "Upload complete",
+      "thanks": "Thank you.\n\nThe app will now anonymously alert other app users who may be exposed. This will help us slow the spread of COVID-19 and protect others in our community.\n\nPlease continue to follow Government of Jersey public health guidelines for people with COVID-19. Your actions will help to save lives.",
+      "howToIsolate": "How to self isolate",
+      "ifInDoubt": "If you are in doubt about your individual situation, please seek advice from your GP.",
+      "updates": "Back to updates"
+    }
+  },
+  "phoneNumber": {
+    "code": {
+      "label": "Your country code",
+      "placeholder": "Country",
+      "searchPlaceholder": "Search a country",
+      "noResults": "No results found for this search.\\nTry with something else.",
+      "error": {
+        "required": "Your country code is required."
+      }
+    },
+    "number": {
+      "label": "Your phone number (optional)",
+      "placeholder": "Your number",
+      "error": {
+        "invalid": "Your number is not valid. Please provide your full phone number.",
+        "short": "Your number is incomplete. Please provide your full phone number.",
+        "required": "Your number is required."
+      },
+      "remove": {
+        "button": "Remove number",
+        "title": "Are you sure you want to remove your phone number?",
+        "alert": "This will prevent the Contact Tracing Team from calling you if you receive an exposure alert.",
+        "yes": "Yes",
+        "no": "No"
+      }
+    }
+  },
+  "appUsage": {
+    "title": "App metrics",
+    "info": "The Government of Jersey would like to understand your use of the app to improve it.\n\nThe app will collect anonymous metrics about how you use it, such as whether the app is working.\n\nThe information gathered is not linked to your identity and cannot be used to identify you. Metrics are collected directly by the Government of Jersey without the use of 3rd party trackers and will only be collected with your consent.\n\nMetrics are not considered personal data as they are completely anonymous. You can read more about the limited personal data in the app in the Privacy Notice.",
+    "settingsInfo": "If you change your mind, you can change these permissions in Settings at any time.",
+    "yesButton": "Share metrics",
+    "noThanks": "No thanks"
+  },
+  "metrics": {
+    "title": "App metrics",
+    "info": "The Government of Jersey would like to understand your use of the app to improve it.\n\nThe app will collect anonymous metrics about how you use it, such as whether the app is working.\n\nThe information gathered is not linked to your identity and cannot be used to identify you. Metrics are collected directly by the Government of Jersey without the use of 3rd party trackers and will only be collected with your consent.\n\nMetrics are not considered personal data as they are completely anonymous. You can read more about the limited personal data in the app in the Privacy Notice.",
+    "share": "Share app usage metrics"
+  },
+  "language": {
+    "title": "Language",
+    "info": "Choose the language used in the app."
+  },
+  "tracingAvailable": {
+    "title": "Exposure alerts are now available for you",
+    "text": "Get setup now"
+  },
+  "codeInput": {
+    "accessibilityLabel": "Code digit {{number}}",
+    "accessibilityHint": "Enter {{count}} digit code"
+  },
+  "pause": {
+    "title": "Pause exposure alerts",
+    "introduction": "You may wish to pause exposure alerts if any of the following apply:\n\n* You are continuously wearing full PPE in a clinical environment\\n* You are isolated from others but your phone may still pick up Bluetooth signals from people nearby, e.g. alone in a glass office or room with thin walls\\n* If you are separated from your phone for some time.\n\nThink carefully about when to reactivate exposure alerts and consider setting a reminder. Otherwise you will need to reactivate exposure alerts in the app Settings.",
+    "dropdown": {
+      "label": "Set a reminder to reactivate exposure alerts at:",
+      "placeholder": "Set time"
+    },
+    "alternativeTime": "or in:",
+    "button": {
+      "label": "Pause exposure alerts"
+    },
+    "modalHeader": "Set reminder time",
+    "intervals": {
+      "4": {
+        "label": "+4 hrs"
+      },
+      "8": {
+        "label": "+8 hrs"
+      },
+      "12": {
+        "label": "+12 hrs"
+      }
+    }
+  },
+  "reminder": {
+    "title": "REMINDER: Reactivate exposure alerts",
+    "message": "It's time to reactivate exposure alerts now."
+  }
+}
