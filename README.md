@@ -8,7 +8,6 @@ If you have found a bug, please email us at covidalert[at]gov.je with “Bug det
 If you are a developer and want to help, we ask that you focus your efforts on [the Covid Green codebase](https://github.com/covidgreen) which is managed by the Linux Foundation for Public Health and is accepting pull requests in full open development.
  
 If you are a security researcher and have found a vulnerability or problem, please email covidalert[at]gov.je with “Responsible Disclosure” in the subject.
-EXTERNAL LINK BUTTON See the documentation [Github logo and link]
 
 
 ## Getting Started
