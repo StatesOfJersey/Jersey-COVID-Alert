@@ -1,5 +1,16 @@
 # COVID Tracker Jersey
 
+## Open Access
+This is a transparent project, the source code for the Jersey COVID Alert app is available for you to inspect on GitHub.
+ 
+If you have found a bug, please email us at covidalert[at]gov.je with “Bug detected” in the subject and full details of the issue including attempts to reproduce it and screenshots if possible.
+ 
+If you are a developer and want to help, we ask that you focus your efforts on [the Covid Green codebase](https://github.com/covidgreen) which is managed by the Linux Foundation for Public Health and is accepting pull requests in full open development.
+ 
+If you are a security researcher and have found a vulnerability or problem, please email covidalert[at]gov.je with “Responsible Disclosure” in the subject.
+EXTERNAL LINK BUTTON See the documentation [Github logo and link]
+
+
 ## Getting Started
 
 Following these instructions will allow you to run and build the project on your local machine for development and testing purposes.
