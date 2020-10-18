@@ -1,4 +1,4 @@
-# COVID Tracker Jersey
+# Jersey COVID Alert
 
 ## Open Access
 This is a transparent project, the source code for the Jersey COVID Alert app is available for you to inspect on GitHub.
